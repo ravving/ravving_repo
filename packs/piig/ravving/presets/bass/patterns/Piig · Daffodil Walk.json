@@ -1,0 +1,23 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Piig · Daffodil Walk",
+        "genre": "Piig",
+        "chart": {
+            "NOTES": "7.........7.2.3.4.........4.3.2.1.........1.5...1.....5.7...6...",
+            "OCTAVE": "-.........-.................................-.........-.-...-...",
+            "ACCENT": "x...............x...............x...............................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxx.x.x.x.xxxxxxxxx.x.x.x.xxxxxxxxx.x.xxx.xxxxx.x.xxx.xxx"
+        },
+        "sound": {
+            "soundSource": "Finger bass",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.4286,
+                "ENVELOPE/RELEASE": 0.3571
+            }
+        }
+    }
+}

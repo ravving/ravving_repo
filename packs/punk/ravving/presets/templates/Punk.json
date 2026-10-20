@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Punk",
+        "genre": "Punk",
+        "about": "Fast punk at 170 in A major: no echo, everything slammed.",
+        "bpm": 170,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 9,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.0,
+        "heavy": 0.5
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Reggaeton · Dembow 808",
+        "genre": "Reggaeton",
+        "chart": {
+            "NOTES": "1..1..1.1..1..1.6..6..6.6..6..6.3..3..3.3..3..3.7..7..7.7..7..7.",
+            "OCTAVE": "................-..-..-.-..-..-.................-..-..-.-..-..-.",
+            "ACCENT": "x...............x...............x...............x...............",
+            "SLIDE": "................................................................",
+            "HOLD": ".xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x"
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

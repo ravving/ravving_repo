@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Electro Funk",
+        "genre": "Hip-Hop",
+        "chart": {
+            "NOTES": "1.1..1.17.5.3.4.1.1..1.13.1.7.54",
+            "OCTAVE": "..+....+..........+....++.+.....",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "..............................x."
+        },
+        "sound": {
+            "soundSource": "Nekobi"
+        }
+    }
+}

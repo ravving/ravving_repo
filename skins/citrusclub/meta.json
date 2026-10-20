@@ -1,0 +1,16 @@
+{
+  "id": "citrusclub",
+  "type": "skin",
+  "name": "CITRUS CLUB",
+  "about": "A lively citrus stand after dark: grapefruit, blue ice, matcha, soda and citrus peel.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

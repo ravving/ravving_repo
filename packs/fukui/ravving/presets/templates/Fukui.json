@@ -1,0 +1,86 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Fukui",
+        "genre": "Fukui",
+        "about": "Piano trio after Ryo Fukui in D minor: medium-up, swung eighths, a small room.",
+        "bpm": 180,
+        "swing": 60,
+        "swingEighths": true,
+        "root": 2,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.1,
+        "heavy": 0.0,
+        "sounds": {
+            "drums1": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32?CYMBAL=51&HAT=44"
+            },
+            "drums2": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32"
+            },
+            "drums3": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:40?CYMBAL=51&HAT=44"
+            },
+            "bass": {
+                "soundSource": "Upright"
+            },
+            "chords": {
+                "soundSource": "Grand piano"
+            },
+            "lead": {
+                "soundSource": "Grand piano"
+            }
+        },
+        "sections": [
+            {
+                "name": "HEAD",
+                "colour": 0,
+                "bars": 8
+            },
+            {
+                "name": "CASCADE",
+                "colour": 1,
+                "bars": 4
+            },
+            {
+                "name": "SLIP",
+                "colour": 2,
+                "bars": 4
+            },
+            {
+                "name": "CLIMAX",
+                "colour": 3,
+                "bars": 4
+            },
+            {
+                "name": "HEAD OUT",
+                "colour": 4,
+                "bars": 8
+            }
+        ],
+        "song": [
+            {
+                "section": 0,
+                "repeats": 1
+            },
+            {
+                "section": 1,
+                "repeats": 1
+            },
+            {
+                "section": 2,
+                "repeats": 1
+            },
+            {
+                "section": 3,
+                "repeats": 1
+            },
+            {
+                "section": 4,
+                "repeats": 1
+            }
+        ]
+    }
+}

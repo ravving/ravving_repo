@@ -1,0 +1,21 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Body · Intro Tick",
+        "genre": "Body",
+        "chart": {
+            "KICK": "X.......x.......X.......x.....x.",
+            "SNARE": "...x..x............x..x.....x..x",
+            "HAT": "X.xxx.x.x.xxx.x.X.xxx.x.x.xx....",
+            "OPEN": "............................x..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR606.sf3",
+            "sound": {
+                "TONE/CUTOFF": 0.8571
+            }
+        }
+    }
+}

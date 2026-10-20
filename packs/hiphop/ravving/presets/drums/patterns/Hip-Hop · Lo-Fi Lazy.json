@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Lo-Fi Lazy",
+        "genre": "Hip-Hop",
+        "chart": {
+            "KICK": "x.........x.....x......x..x.....",
+            "SNARE": "....x.......x.......x.......x...",
+            "HAT": "..x...x...x...x...x...x...x.x.x.",
+            "PERC": "......x.......x.......x.......x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/SP1200 1.sf3"
+        }
+    }
+}

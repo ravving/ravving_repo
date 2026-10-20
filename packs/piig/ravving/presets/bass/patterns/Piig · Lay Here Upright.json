@@ -1,0 +1,24 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Piig · Lay Here Upright",
+        "genre": "Piig",
+        "chart": {
+            "NOTES": "1.....5.1.....5.5.....2.5.....7.",
+            "OCTAVE": "......-.......-.-.....-.-.....-.",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xxxxx.x.xxxxx.x.xxxxx.x.xxxxx.x",
+            "ALTER": "..............................1."
+        },
+        "sound": {
+            "soundSource": "Upright",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.5714,
+                "ENVELOPE/RELEASE": 0.3571
+            }
+        }
+    }
+}

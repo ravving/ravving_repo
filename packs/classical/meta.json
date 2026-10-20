@@ -1,0 +1,17 @@
+{
+  "id": "classical",
+  "type": "pack",
+  "name": "Classical",
+  "about": "A concert hall: C major (the timpani are tuned to C and G), moderato, straight; a little echo for the room, nothing squashed.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "classical",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

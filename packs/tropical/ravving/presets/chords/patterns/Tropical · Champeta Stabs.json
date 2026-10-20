@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Tropical · Champeta Stabs",
+        "genre": "Tropical",
+        "chart": {
+            "CHORDS": ".11..11..11..11..44..44..44..44..55..55..55..55..44..44..44..44."
+        },
+        "sound": {
+            "soundSource": "TAL NoiseMaker"
+        }
+    }
+}

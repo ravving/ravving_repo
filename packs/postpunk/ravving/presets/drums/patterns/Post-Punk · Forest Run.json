@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Post-Punk · Forest Run",
+        "genre": "Post-Punk",
+        "chart": {
+            "KICK": "X.......X.x.....X.......X.......",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "X.x.X.x.X.x.X...X.x.X.x.X.x.X...",
+            "OPEN": "..............x...............x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland CR78.sf3"
+        }
+    }
+}

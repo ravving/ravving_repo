@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Cumbia",
+        "genre": "Cumbia",
+        "about": "Cumbia at 95 in G major, straight; the sonidero's echo and a little phaser.",
+        "bpm": 95,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 7,
+        "scale": "Major",
+        "phaser": 0.15,
+        "echo": 0.3,
+        "heavy": 0.2
+    }
+}

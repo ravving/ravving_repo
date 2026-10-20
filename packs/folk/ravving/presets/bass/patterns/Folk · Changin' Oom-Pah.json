@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Folk · Changin' Oom-Pah",
+        "genre": "Folk",
+        "chart": {
+            "NOTES": "1...5...5...6...3...3...4...1...1...5...2...7...",
+            "OCTAVE": "....-...-...-.......................-.......-...",
+            "ACCENT": "x...........x...........x...........x...........",
+            "SLIDE": "................................................",
+            "HOLD": ".xxx.xxx.xxx.xxx.xxx.xxx.xxx.xxx.xxx.xxx.xxx.xxx"
+        },
+        "sound": {
+            "soundSource": "Acoustic bass"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Trap · Sparse Snap",
+        "genre": "Trap",
+        "chart": {
+            "KICK": "X..........x....X......x........",
+            "CLAP": "........X...............X.......",
+            "HAT": "X...x...X...xxxxX...x...X...x.x.",
+            "PERC": "......x........x......x........."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/SP1200 1.sf3"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Post-Punk · Doktor Avalanche",
+        "genre": "Post-Punk",
+        "chart": {
+            "KICK": "X...X...X...X...X...X...X...X...",
+            "SNARE": "....X.......X.......X.......X.xx",
+            "HAT": "X...X...X...X...X...X...X...X...",
+            "OPEN": "..x...x...x...x...x...x...x...x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Boss DR55.sf3"
+        }
+    }
+}

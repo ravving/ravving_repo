@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Trap · Drill",
+        "genre": "Trap",
+        "chart": {
+            "KICK": "X.........x..x..X......x...x....",
+            "SNARE": "........X..........x....X.....x.",
+            "HAT": "X..x..x.X..x..x.X..x..x.X..x..xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3"
+        }
+    }
+}

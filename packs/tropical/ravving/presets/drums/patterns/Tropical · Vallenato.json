@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Tropical · Vallenato",
+        "genre": "Tropical",
+        "chart": {
+            "CLAP": "..x.......x.......x.......x.....",
+            "TOM": "x...x.x.x...x.x.x...x.x.x...xxx.",
+            "PERC": "x.xxx.xxx.xxx.xxx.xxx.xxx.xxx.xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8?PERC=74&TOM=66&CYMBAL=56&CLAP=63"
+        }
+    }
+}

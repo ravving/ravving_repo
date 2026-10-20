@@ -1,0 +1,16 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Jazz · Bebop Bombs",
+        "genre": "Jazz",
+        "chart": {
+            "CYMBAL": "x...x.x.x...x.x.x...x.x.x...x.x.",
+            "HAT": "....x.......x.......x.......x...",
+            "SNARE": "..x...x...x.......x...x....x..x.",
+            "KICK": ".......X.......X........X....X..",
+            "TOM": "............................x..x"
+        }
+    }
+}

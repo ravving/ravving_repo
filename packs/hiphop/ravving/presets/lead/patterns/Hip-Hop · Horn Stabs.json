@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Horn Stabs",
+        "genre": "Hip-Hop",
+        "chart": {
+            "NOTES": "5..5...7.5......4..4...3.1......",
+            "OCTAVE": "................................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": "........x.x.............x.xxx..."
+        },
+        "sound": {
+            "soundSource": "Muted trumpet"
+        }
+    }
+}

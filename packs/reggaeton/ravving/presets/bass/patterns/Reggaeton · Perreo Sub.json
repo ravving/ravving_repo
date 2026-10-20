@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Reggaeton · Perreo Sub",
+        "genre": "Reggaeton",
+        "chart": {
+            "NOTES": "1.............766.............71",
+            "OCTAVE": "..............---.............-.",
+            "ACCENT": "x...............................",
+            "SLIDE": "..............x...............x.",
+            "HOLD": ".xxxxxxxxxxxxx...xxxxxxxxxxxxx.."
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

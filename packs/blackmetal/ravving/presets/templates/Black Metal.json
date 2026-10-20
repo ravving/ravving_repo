@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Black Metal",
+        "genre": "Black Metal",
+        "about": "Black metal in E minor at blast-beat speed, washed in echo, squashed like a cassette demo.",
+        "bpm": 170,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.25,
+        "heavy": 0.55
+    }
+}

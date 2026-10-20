@@ -1,0 +1,23 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Body · Gnarly Toms",
+        "genre": "Body",
+        "chart": {
+            "KICK": "X..x..x.X..x..x.X..x..x.X..x....",
+            "CLAP": "............X...............X...",
+            "TOM": ".x...x....x..x...x...x....x.Xxxx",
+            "HAT": "..x...x...x...x...x...x...x...x.",
+            "PERC": "....x.......X.......x..........."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Alesis HR16.sf3",
+            "sound": {
+                "TONE/CUTOFF": 0.9286,
+                "PITCH/TUNE": 0.4167
+            }
+        }
+    }
+}

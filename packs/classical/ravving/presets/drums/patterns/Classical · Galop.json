@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Classical · Galop",
+        "genre": "Classical",
+        "chart": {
+            "KICK": "X.......x.......X...............",
+            "SNARE": "X.xxx.xxx.xxx.xxX.xxx.xxX.X.X...",
+            "TOM": "............................X...",
+            "HAT": "........................X.......",
+            "OPEN": "X.x.x.x.x.x.x.x.X.x.x.x.........",
+            "CYMBAL": "....x.......x.......x...X...X..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:48?TOM=48&HAT=43&OPEN=81&CYMBAL=57&PERC=54"
+        }
+    }
+}

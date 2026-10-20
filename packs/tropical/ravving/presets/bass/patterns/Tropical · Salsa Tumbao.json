@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Tropical · Salsa Tumbao",
+        "genre": "Tropical",
+        "chart": {
+            "NOTES": "6.....3.....2.........6.....3.........7.....6.........3.....6...",
+            "OCTAVE": "-...........-.........-.....-.........-.....-...............-...",
+            "ACCENT": "x...............................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxx.xxxxx.xxxxxxxxx.xxxxx.xxxxxxxxx.xxxxx.xxxxxxxxx.xxxxx.xxx"
+        },
+        "sound": {
+            "soundSource": "Upright"
+        }
+    }
+}

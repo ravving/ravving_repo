@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Trap · Choir i–VII–VI–VII",
+        "genre": "Trap",
+        "chart": {
+            "CHORDS": "111111111111111177777777777777776666666666666666777777777777777."
+        },
+        "sound": {
+            "soundSource": "Choir"
+        }
+    }
+}

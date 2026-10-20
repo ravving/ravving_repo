@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Cumbia · Sonidera",
+        "genre": "Cumbia",
+        "chart": {
+            "KICK": "X.......x.....x.X.......x.......",
+            "CLAP": "..x...x...x...x...x...x...x.....",
+            "TOM": "............................xxxx",
+            "CYMBAL": "................X...x...x.......",
+            "PERC": "X.xxx.xxx.xxx.xxX.xxx.xxx.xxx.xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0?PERC=73&TOM=65&CYMBAL=56&CLAP=63"
+        }
+    }
+}

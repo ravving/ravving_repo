@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Reggaeton · Offbeat Pump",
+        "genre": "Reggaeton",
+        "chart": {
+            "NOTES": "..1...1...1...1...6...6...6...6.",
+            "OCTAVE": "..................-...-...-...-.",
+            "ACCENT": "..x...............x.............",
+            "SLIDE": "................................",
+            "HOLD": "...x...x...x...x...x...x...x...x"
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Droon · Too Fast Guitar",
+        "genre": "Droon",
+        "chart": {
+            "NOTES": "5.12..1.7.5.....3.45..3.2.7.....",
+            "OCTAVE": "..++..+...................-.....",
+            "ACCENT": "................................",
+            "SLIDE": "................................",
+            "HOLD": ".x..xx.x.x.xxx...x..xx.x.x.xxx..",
+            "VELOCITY": {
+                "0": 80,
+                "2": 74,
+                "3": 84,
+                "6": 70,
+                "8": 74,
+                "10": 78,
+                "16": 76,
+                "18": 70,
+                "19": 84,
+                "22": 72,
+                "24": 70,
+                "26": 74
+            },
+            "NUDGE": {
+                "0": 6,
+                "2": -12,
+                "10": 6,
+                "16": 6,
+                "18": -12,
+                "26": 8
+            }
+        },
+        "sound": {
+            "soundSource": "Guitar · Chorus",
+            "sourceSound": {
+                "MOTION/CHORUS": 0.6,
+                "ENVELOPE/RELEASE": 0.3929
+            }
+        }
+    }
+}

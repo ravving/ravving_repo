@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Tropical · Acordeón Paseo",
+        "genre": "Tropical",
+        "chart": {
+            "NOTES": "5.653.21.23.5.3.4.542.17.12.5.1.",
+            "OCTAVE": ".......................-....-...",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x...x..x..x.x.x.x...x..x..x.x.x"
+        },
+        "sound": {
+            "soundSource": "Accordion"
+        }
+    }
+}

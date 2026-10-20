@@ -1,0 +1,17 @@
+{
+  "id": "folk",
+  "type": "pack",
+  "name": "Folk",
+  "about": "Folk in G major (the songs' key), straight, dry but for a little room.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "folk",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

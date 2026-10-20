@@ -1,0 +1,17 @@
+{
+  "id": "pop",
+  "type": "pack",
+  "name": "Pop",
+  "about": "Radio pop in C major at the pack's middle tempo, straight, a touch of echo and glue.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "pop",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

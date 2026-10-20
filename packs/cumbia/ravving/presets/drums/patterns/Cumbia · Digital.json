@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Cumbia · Digital",
+        "genre": "Cumbia",
+        "chart": {
+            "KICK": "X.......X.....x.X.......X.....x.",
+            "CLAP": "....x.......x.......x.......x...",
+            "HAT": "X.xxx.xxX.xxx.xxX.xxx.xxX.xxx...",
+            "OPEN": "..............................x.",
+            "PERC": "..x...x...x...x...x...x...x...x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3"
+        }
+    }
+}

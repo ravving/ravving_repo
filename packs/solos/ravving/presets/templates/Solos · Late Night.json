@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Solos · Late Night",
+        "genre": "Solos",
+        "about": "The slowest ballads (Lament, Rain): rubato, nearly straight eighths, a deeper room.",
+        "bpm": 58,
+        "swing": 54,
+        "swingEighths": true,
+        "root": 3,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.45,
+        "heavy": 0.0
+    }
+}

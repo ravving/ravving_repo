@@ -1,0 +1,25 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Vuelo · Sub Pulse",
+        "genre": "Vuelo",
+        "chart": {
+            "NOTES": "1.............7.7.............6.6.............7.7...........5.7.",
+            "OCTAVE": "..............-.-.............-.-.............-.-...........-.-.",
+            "ACCENT": "x...............x...............x...............x...............",
+            "SLIDE": "..............x...............x...............x...............x.",
+            "HOLD": ".xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxx.x.x",
+            "NUDGE": {
+                "0": 10,
+                "16": 10,
+                "32": 10,
+                "48": 10
+            }
+        },
+        "sound": {
+            "soundSource": "Sine sub"
+        }
+    }
+}

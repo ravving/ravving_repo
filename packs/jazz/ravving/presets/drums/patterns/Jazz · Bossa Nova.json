@@ -1,0 +1,14 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Jazz · Bossa Nova",
+        "genre": "Jazz",
+        "chart": {
+            "PERC": "X..x..x...x..x....X...x..x..x...",
+            "KICK": "x.....x.x.....x.x.....x.x.....x.",
+            "HAT": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x."
+        }
+    }
+}

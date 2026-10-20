@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Jazz Rap Walk",
+        "genre": "Hip-Hop",
+        "chart": {
+            "NOTES": "1...5...7...1.2.3...4...5...5.7.",
+            "OCTAVE": "....-...-...................-.-.",
+            "ACCENT": "x...............................",
+            "SLIDE": "................................",
+            "HOLD": ".xx..xx..xx..x.x.xx..xx..xx..x.x"
+        },
+        "sound": {
+            "soundSource": "Upright"
+        }
+    }
+}

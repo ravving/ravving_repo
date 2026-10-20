@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Cumbia · Villera i–VII",
+        "genre": "Cumbia",
+        "chart": {
+            "NOTES": "6..6..3.6..6..3.5..5..2.5..5..2.",
+            "OCTAVE": "-..-..-.-..-..-.-..-..-.-..-..-.",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x.....x.x.....x.x.....x.x.....x"
+        },
+        "sound": {
+            "soundSource": "Synth bass"
+        }
+    }
+}

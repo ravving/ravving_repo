@@ -1,0 +1,16 @@
+{
+  "id": "tapeclub",
+  "type": "skin",
+  "name": "TAPE CLUB",
+  "about": "A warm retro rack of tobacco walnut, smoked glass, faded tape-label paper and carefully softened CRT lights.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

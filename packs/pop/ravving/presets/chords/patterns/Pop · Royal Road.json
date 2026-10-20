@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Pop · Royal Road",
+        "genre": "Pop",
+        "chart": {
+            "CHORDS": "44.44.444444444.55.55.555555555.33.33.333333333.66.66.666666666."
+        },
+        "sound": {
+            "soundSource": "Rhodes"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Hollywood",
+        "genre": "Hollywood",
+        "about": "Old-Hollywood sadcore at 72 in F minor: slow hip-hop beats under strings, harp and celesta, a long echo for the hall.",
+        "bpm": 72,
+        "swing": 52,
+        "swingEighths": false,
+        "root": 5,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.4,
+        "heavy": 0.15
+    }
+}

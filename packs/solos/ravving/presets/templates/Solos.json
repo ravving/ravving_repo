@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Solos",
+        "genre": "Solos",
+        "about": "Ballads in Eb major after Coltrane's Ballads: slow, long tones, brushes, a warm room.",
+        "bpm": 64,
+        "swing": 56,
+        "swingEighths": true,
+        "root": 3,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.35,
+        "heavy": 0.0
+    }
+}

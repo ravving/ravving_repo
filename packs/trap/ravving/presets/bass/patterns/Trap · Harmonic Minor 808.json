@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Trap · Harmonic Minor 808",
+        "genre": "Trap",
+        "chart": {
+            "NOTES": "1.......5...7...6.......5.....7.",
+            "OCTAVE": "........-...-...-.......-.....-.",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xxxxxxx.xxx.xxx.xxxxxxx.xxxxx.x",
+            "ALTER": "............1.................1."
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Boom Bap Keys",
+        "genre": "Hip-Hop",
+        "chart": {
+            "CHORDS": "111...11........444...44..33.77."
+        },
+        "sound": {
+            "soundSource": "Rhodes"
+        }
+    }
+}

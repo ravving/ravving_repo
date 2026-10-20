@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Hip-Hop · G-Funk Whistle",
+        "genre": "Hip-Hop",
+        "chart": {
+            "NOTES": "5.....4.3.1.....3...4...5.......",
+            "OCTAVE": "+.....+.+.+.....+...+...+.......",
+            "ACCENT": "x...............................",
+            "SLIDE": "x.......x...........x...........",
+            "HOLD": ".xxxxx.x.x.xxxxx.xxx.xxx.xxxxx.."
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

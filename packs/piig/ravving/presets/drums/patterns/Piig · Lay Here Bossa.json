@@ -1,0 +1,21 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Piig · Lay Here Bossa",
+        "genre": "Piig",
+        "chart": {
+            "KICK": "x.....x.x.....x.x.....x.x.....x.",
+            "HAT": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.xxx.",
+            "PERC": "x.....x.....x.......x.....x....."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0",
+            "sound": {
+                "TONE/CUTOFF": 0.7143,
+                "SHAPE/LENGTH": 0.5714
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Vuelo · Sax Line",
+        "genre": "Vuelo",
+        "chart": {
+            "NOTES": "..5.....4.3.....1.....7.1.......",
+            "OCTAVE": "......................-.........",
+            "ACCENT": "..x.............................",
+            "SLIDE": "................................",
+            "HOLD": "...xxxxx.x.xxxxx.xxx...x.xxxxxxx",
+            "NUDGE": {
+                "2": 8,
+                "10": 8,
+                "16": 8,
+                "24": 8
+            }
+        },
+        "sound": {
+            "soundSource": "Alto sax"
+        }
+    }
+}

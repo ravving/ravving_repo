@@ -1,0 +1,17 @@
+{
+  "id": "piig",
+  "type": "pack",
+  "name": "Piig",
+  "about": "Biig Piig's 24K: D minor at 79 BPM with the lazy MPC swing, a lo-fi wobble and echo.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "piig",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

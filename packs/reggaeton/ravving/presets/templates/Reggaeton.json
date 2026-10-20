@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Reggaeton",
+        "genre": "Reggaeton",
+        "about": "The dembow at 93 in A minor, straight, the kick pumped by HEAVY.",
+        "bpm": 93,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 9,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.1,
+        "heavy": 0.4
+    }
+}

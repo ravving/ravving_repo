@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Post-Punk",
+        "genre": "Post-Punk",
+        "about": "Post-punk in A minor at 142: the chorus-drenched guitars as phaser, the echo of a cold room.",
+        "bpm": 142,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 9,
+        "scale": "Natural Minor",
+        "phaser": 0.3,
+        "echo": 0.3,
+        "heavy": 0.3
+    }
+}

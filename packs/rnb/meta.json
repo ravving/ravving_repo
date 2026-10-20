@@ -1,0 +1,17 @@
+{
+  "id": "rnb",
+  "type": "pack",
+  "name": "R&B",
+  "about": "Snoh Aalegra's slow jams (Fool For You) at 75 in E minor: deeper swing, a longer room for the strings.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "r&b",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

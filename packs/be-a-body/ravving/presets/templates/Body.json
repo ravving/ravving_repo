@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Body",
+        "genre": "Body",
+        "about": "Grimes' Be a Body at 140 in F Dorian: Juno pads, a Minimoog bass, cheap drum machines, the bouncing delay.",
+        "bpm": 140,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 5,
+        "scale": "Dorian",
+        "phaser": 0.1,
+        "echo": 0.35,
+        "heavy": 0.25
+    }
+}

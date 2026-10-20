@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "R&B · Slow Jam",
+        "genre": "R&B",
+        "about": "Snoh Aalegra's slow jams (Fool For You) at 75 in E minor: deeper swing, a longer room for the strings.",
+        "bpm": 75,
+        "swing": 58,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.35,
+        "heavy": 0.15
+    }
+}

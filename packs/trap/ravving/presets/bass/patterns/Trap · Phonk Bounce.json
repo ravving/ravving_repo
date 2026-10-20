@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Trap · Phonk Bounce",
+        "genre": "Trap",
+        "chart": {
+            "NOTES": "1..1..1...1.3.1.6..6..6...7.7.1.",
+            "OCTAVE": "................-..-..-...-.-...",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................"
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

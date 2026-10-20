@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Reggaeton · Romántico Piano",
+        "genre": "Reggaeton",
+        "chart": {
+            "CHORDS": "1111111111111111444444444444444477777777777777773333333333333333"
+        },
+        "sound": {
+            "soundSource": "Grand piano"
+        }
+    }
+}

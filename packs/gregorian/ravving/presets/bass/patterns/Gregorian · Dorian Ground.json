@@ -1,0 +1,30 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Gregorian · Dorian Ground",
+        "genre": "Gregorian",
+        "chart": {
+            "NOTES": "1.............7.5.............6.7.............5.4...........6.7.",
+            "OCTAVE": "..............-.-.............-.-.............-.-...........-.-.",
+            "ACCENT": "x...............................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxx.x.x",
+            "VELOCITY": {
+                "14": 84,
+                "30": 84,
+                "46": 84,
+                "60": 84,
+                "62": 88
+            }
+        },
+        "sound": {
+            "soundSource": "Cello",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.0455,
+                "ENVELOPE/RELEASE": 0.4286
+            }
+        }
+    }
+}

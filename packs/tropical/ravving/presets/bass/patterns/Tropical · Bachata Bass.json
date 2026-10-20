@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Tropical · Bachata Bass",
+        "genre": "Tropical",
+        "chart": {
+            "NOTES": "6..3..6.6..3.6..2..6..2.2..6.2..3..7..3.3..7.3..6..3..6.6..3.6..",
+            "OCTAVE": "-..-..-.-..-.-..-..-..-.-..-.-..-..-..-.-..-.-..-..-..-.-..-.-..",
+            "ACCENT": "x...............x...............x...............x...............",
+            "SLIDE": "................................................................",
+            "HOLD": ".xx.x..x.x..x.x..xx.x..x.x..x.x..xx.x..x.x..x.x..xx.x..x.x..x.x."
+        },
+        "sound": {
+            "soundSource": "Acoustic bass"
+        }
+    }
+}

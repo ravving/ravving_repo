@@ -1,0 +1,16 @@
+{
+  "id": "arcadedusk",
+  "type": "skin",
+  "name": "ARCADE DUSK",
+  "about": "A gentle twilight arcade: grape graphite, cloud grey, melon, lilac and bubblegum LEDs.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

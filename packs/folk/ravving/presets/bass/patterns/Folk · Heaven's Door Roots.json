@@ -1,0 +1,22 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Folk · Heaven's Door Roots",
+        "genre": "Folk",
+        "chart": {
+            "NOTES": "1...5.5.2...6.2.1...5.5.4...1.4.",
+            "OCTAVE": "....-.-.....-.......-.-.........",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xx..x.x.xx..x.x.xx..x.x.xx..x.x"
+        },
+        "sound": {
+            "soundSource": "Acoustic bass",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.7857
+            }
+        }
+    }
+}

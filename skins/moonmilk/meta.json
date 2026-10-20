@@ -1,0 +1,16 @@
+{
+  "id": "moonmilk",
+  "type": "skin",
+  "name": "MOONMILK",
+  "about": "Moonlit confectionery: lavender graphite, oat milk, rose clay and softly luminous sweets.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

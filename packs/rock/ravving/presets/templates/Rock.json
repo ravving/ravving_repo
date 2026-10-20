@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Rock",
+        "genre": "Rock",
+        "about": "Guitar rock in E major (the guitar's own key), straight eighths, compressed like a live room.",
+        "bpm": 122,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.05,
+        "heavy": 0.35
+    }
+}

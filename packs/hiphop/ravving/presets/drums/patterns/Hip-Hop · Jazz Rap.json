@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Jazz Rap",
+        "genre": "Hip-Hop",
+        "chart": {
+            "KICK": "X.......x.x.....X.....x...x.....",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "....X.......X.......X.......X...",
+            "CYMBAL": "X...X.x.x...X.x.X...X.x.x...X.x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32?CYMBAL=51&HAT=44"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Folk · Changin' Waltz",
+        "genre": "Folk",
+        "chart": {
+            "KICK": "X...........x...........X...........x.......x...",
+            "SNARE": "....x...x.......x...x.......x...x.......x...x.x.",
+            "CYMBAL": "X...x...x...x...x...x...X...x...x...x...x...x..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8?TOM=41&PERC=54&CYMBAL=51"
+        }
+    }
+}

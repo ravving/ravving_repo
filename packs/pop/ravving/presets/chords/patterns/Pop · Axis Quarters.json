@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Pop · Axis Quarters",
+        "genre": "Pop",
+        "chart": {
+            "CHORDS": "111.111.111.111.555.555.555.555.666.666.666.666.444.444.444.444."
+        },
+        "sound": {
+            "soundSource": "Grand piano"
+        }
+    }
+}

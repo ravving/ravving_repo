@@ -1,0 +1,16 @@
+{
+  "id": "aquarium",
+  "type": "skin",
+  "name": "AQUARIUM",
+  "about": "After-hours aquarium: marine glass, deep teal, coral fish and soft bioluminescent lights.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

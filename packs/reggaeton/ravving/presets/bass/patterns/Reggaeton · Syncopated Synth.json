@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Reggaeton · Syncopated Synth",
+        "genre": "Reggaeton",
+        "chart": {
+            "NOTES": "1..1..1..1..7.5.6..6..6..6..5.3.",
+            "OCTAVE": "......+.........-..-.....-......",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................"
+        },
+        "sound": {
+            "soundSource": "Synth bass"
+        }
+    }
+}

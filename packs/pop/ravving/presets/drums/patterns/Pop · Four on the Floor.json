@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Pop · Four on the Floor",
+        "genre": "Pop",
+        "chart": {
+            "KICK": "X...x...X...x...X...x...X...x...",
+            "CLAP": "....x.......x.......x.......x.xx",
+            "HAT": "Xx.xxx.xXx.xxx.xXx.xxx.xXx.xxx.x",
+            "OPEN": "..x...x...x...x...x...x...x...x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR909.sf3"
+        }
+    }
+}

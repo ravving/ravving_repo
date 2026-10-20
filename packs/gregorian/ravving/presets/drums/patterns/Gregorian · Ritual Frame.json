@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Gregorian · Ritual Frame",
+        "genre": "Gregorian",
+        "chart": {
+            "KICK": "X...............X...............",
+            "TOM": "X..x..x.X..x..x.X..x..x.X..x.xxx",
+            "PERC": "....x.......x.......x.......x..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8?TOM=41&PERC=54&CYMBAL=51"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cumbia",
+  "type": "pack",
+  "name": "Cumbia",
+  "about": "Cumbia at 95 in G major, straight; the sonidero's echo and a little phaser.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "cumbia",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

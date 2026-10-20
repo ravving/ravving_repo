@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Trap · Classic Trap",
+        "genre": "Trap",
+        "chart": {
+            "KICK": "X.........x.....X......x..x...x.",
+            "CLAP": "........X...............X.......",
+            "HAT": "X.x.x.x.Xxx.x...X.x.xxxxX.x.x.xx",
+            "OPEN": "..............x................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3"
+        }
+    }
+}

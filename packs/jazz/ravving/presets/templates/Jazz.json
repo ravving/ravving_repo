@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Jazz",
+        "genre": "Jazz",
+        "about": "Jazz in C minor (the charts' C = 0) at a medium 120, swung eighths-feel sixteenths, a little room.",
+        "bpm": 120,
+        "swing": 62,
+        "swingEighths": false,
+        "root": 0,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.1,
+        "heavy": 0.0
+    }
+}

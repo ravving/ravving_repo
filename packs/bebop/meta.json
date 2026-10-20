@@ -1,0 +1,17 @@
+{
+  "id": "bebop",
+  "type": "pack",
+  "name": "Bebop",
+  "about": "The Baker-style ballad: slow, swung eighths, a trumpet in a warm room.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "bebop",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

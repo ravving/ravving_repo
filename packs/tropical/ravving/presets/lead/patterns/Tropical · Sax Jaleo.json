@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Tropical · Sax Jaleo",
+        "genre": "Tropical",
+        "chart": {
+            "NOTES": "15351535153515357525752542724275",
+            "OCTAVE": "+...+...+...+...........++.+++..",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................"
+        },
+        "sound": {
+            "soundSource": "Alto sax"
+        }
+    }
+}

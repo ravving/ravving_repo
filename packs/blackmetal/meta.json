@@ -1,0 +1,17 @@
+{
+  "id": "blackmetal",
+  "type": "pack",
+  "name": "Black Metal",
+  "about": "Black metal in E minor at blast-beat speed, washed in echo, squashed like a cassette demo.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "black metal",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

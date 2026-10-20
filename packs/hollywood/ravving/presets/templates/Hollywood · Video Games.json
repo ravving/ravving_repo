@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Hollywood · Video Games",
+        "genre": "Hollywood",
+        "about": "The half-time ballad at 62 in F# minor: long bows, harp sweeps, the drums barely there.",
+        "bpm": 62,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 6,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.45,
+        "heavy": 0.1
+    }
+}

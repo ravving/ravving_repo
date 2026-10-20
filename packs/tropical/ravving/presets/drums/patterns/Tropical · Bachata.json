@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Tropical · Bachata",
+        "genre": "Tropical",
+        "chart": {
+            "SNARE": "x.x.x.x.x.x...x.x.x.x.x.x.x...x.",
+            "TOM": "............X...............X.x.",
+            "OPEN": "......................x.........",
+            "PERC": "x.xxx.xxx.xxX.xxx.xxx.xxx.xxX.xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0?SNARE=60&TOM=61&CLAP=62&OPEN=64&HAT=70&CYMBAL=56&PERC=69"
+        }
+    }
+}

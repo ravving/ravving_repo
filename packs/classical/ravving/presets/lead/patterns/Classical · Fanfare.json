@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Classical · Fanfare",
+        "genre": "Classical",
+        "chart": {
+            "NOTES": "1..13..35...3.5.1.....5.3.5.1...",
+            "OCTAVE": "................+...............",
+            "ACCENT": "x.......x.......x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xx..xx..xxx.x.x.xxxxx.x.x.x.xx."
+        },
+        "sound": {
+            "soundSource": "Trumpet"
+        }
+    }
+}

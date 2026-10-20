@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Bebop · Ballad",
+        "genre": "Bebop",
+        "about": "The Baker-style ballad: slow, swung eighths, a trumpet in a warm room.",
+        "bpm": 64,
+        "swing": 58,
+        "swingEighths": true,
+        "root": 10,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.3,
+        "heavy": 0.0
+    }
+}

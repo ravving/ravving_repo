@@ -1,0 +1,17 @@
+{
+  "id": "tropical",
+  "type": "pack",
+  "name": "Tropical",
+  "about": "Música tropical at 130 in C major (salsa and bachata on A minor, its relative), straight.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "tropical",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

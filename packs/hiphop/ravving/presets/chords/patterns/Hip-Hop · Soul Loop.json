@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Soul Loop",
+        "genre": "Hip-Hop",
+        "chart": {
+            "CHORDS": "11111111444444447777777733333333"
+        },
+        "sound": {
+            "soundSource": "Strings · Ensemble"
+        }
+    }
+}

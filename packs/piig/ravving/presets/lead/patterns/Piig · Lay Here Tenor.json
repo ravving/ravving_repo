@@ -1,0 +1,25 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Piig · Lay Here Tenor",
+        "genre": "Piig",
+        "chart": {
+            "NOTES": "........5.4.3...7.....2.1.......",
+            "OCTAVE": "................-...............",
+            "ACCENT": "........x.......................",
+            "SLIDE": "................................",
+            "HOLD": ".........x.x.xxx.xxxxx.x.xxxxx..",
+            "ALTER": "................1..............."
+        },
+        "sound": {
+            "soundSource": "Tenor sax",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.5,
+                "ENVELOPE/ATTACK": 0.1364,
+                "ENVELOPE/RELEASE": 0.4286
+            }
+        }
+    }
+}

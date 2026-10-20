@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Body · Intro",
+        "genre": "Body",
+        "about": "The intro at 140 in F Dorian: harp and chopped voices over sus stabs, the drums ticking, a long echo.",
+        "bpm": 140,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 5,
+        "scale": "Dorian",
+        "phaser": 0.2,
+        "echo": 0.5,
+        "heavy": 0.1
+    }
+}

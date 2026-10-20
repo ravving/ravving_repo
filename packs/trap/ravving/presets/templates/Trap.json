@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Trap",
+        "genre": "Trap",
+        "about": "Trap at 140 (a half-time 70) in F minor, straight hats, hard-squashed 808s.",
+        "bpm": 140,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 5,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.15,
+        "heavy": 0.45
+    }
+}

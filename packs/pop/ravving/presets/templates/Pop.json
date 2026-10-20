@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Pop",
+        "genre": "Pop",
+        "about": "Radio pop in C major at the pack's middle tempo, straight, a touch of echo and glue.",
+        "bpm": 116,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 0,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.15,
+        "heavy": 0.25
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "droon",
+  "type": "pack",
+  "name": "Droon",
+  "about": "Care's and Searchin's Bb minor, slower, the eighths swung toward a triplet lilt, a deep room.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "droon",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

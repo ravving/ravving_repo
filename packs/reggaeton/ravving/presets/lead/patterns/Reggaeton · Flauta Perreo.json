@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Reggaeton · Flauta Perreo",
+        "genre": "Reggaeton",
+        "chart": {
+            "NOTES": "1..7..5..4..5...3..4..5..7..5...",
+            "OCTAVE": "+...............................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x..x..x..x..xxx.x..x..x..x..xxx"
+        },
+        "sound": {
+            "soundSource": "Flute"
+        }
+    }
+}

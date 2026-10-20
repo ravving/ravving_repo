@@ -1,0 +1,26 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Piig · Smoke Alto",
+        "genre": "Piig",
+        "chart": {
+            "NOTES": "......5.7.1.......2...1.6.........1...7.6.......5.......2.......",
+            "OCTAVE": "..........+.......+...+...........+.............................",
+            "ACCENT": "..........x.....................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".......x.x.xxxxx...xxx.x.xxxxxxx...xxx.x.xxxxxxx.xxxxx...xxxxx..",
+            "ALTER": "........................1......................................."
+        },
+        "sound": {
+            "soundSource": "Alto sax",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.5,
+                "ENVELOPE/ATTACK": 0.1818,
+                "ENVELOPE/RELEASE": 0.4286,
+                "MOTION/VIBRATO": 0.1575
+            }
+        }
+    }
+}

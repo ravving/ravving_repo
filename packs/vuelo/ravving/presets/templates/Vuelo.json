@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Vuelo",
+        "genre": "Vuelo",
+        "about": "Nu-disco at 120 in A minor (Arty Boy): four on the floor, a touch of phaser on the guitar, HEAVY to glue the drums.",
+        "bpm": 120,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 9,
+        "scale": "Natural Minor",
+        "phaser": 0.1,
+        "echo": 0.15,
+        "heavy": 0.3
+    }
+}

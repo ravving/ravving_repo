@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Cumbia · Chicha Guitar",
+        "genre": "Cumbia",
+        "chart": {
+            "NOTES": "333322117766556.6611332211776...",
+            "OCTAVE": "++++++++..........++++++++......",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": "...............x.............xxx",
+            "ALTER": "............11.................."
+        },
+        "sound": {
+            "soundSource": "Guitar · Overdrive"
+        }
+    }
+}

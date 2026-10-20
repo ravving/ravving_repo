@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Pop · Sax Hook",
+        "genre": "Pop",
+        "chart": {
+            "NOTES": "5.61..6.5...3.5.6..5.3.2....1...",
+            "OCTAVE": "...+............................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x..xx.x.xxx.x.x.xx.x.x.xxxx.xx."
+        },
+        "sound": {
+            "soundSource": "Alto sax"
+        }
+    }
+}

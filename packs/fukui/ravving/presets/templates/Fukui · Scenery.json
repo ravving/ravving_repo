@@ -1,0 +1,86 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Fukui · Scenery",
+        "genre": "Fukui",
+        "about": "Scenery's ballad: slow, a lilt on the eighths, the piano in a warm hall.",
+        "bpm": 70,
+        "swing": 56,
+        "swingEighths": true,
+        "root": 2,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.3,
+        "heavy": 0.0,
+        "sounds": {
+            "drums1": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:40?CYMBAL=51&HAT=44"
+            },
+            "drums2": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32"
+            },
+            "drums3": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:40?CYMBAL=51&HAT=44"
+            },
+            "bass": {
+                "soundSource": "Upright"
+            },
+            "chords": {
+                "soundSource": "Grand piano"
+            },
+            "lead": {
+                "soundSource": "Grand piano"
+            }
+        },
+        "sections": [
+            {
+                "name": "INTRO",
+                "colour": 0,
+                "bars": 4
+            },
+            {
+                "name": "THEME A",
+                "colour": 1,
+                "bars": 8
+            },
+            {
+                "name": "THEME B",
+                "colour": 2,
+                "bars": 8
+            },
+            {
+                "name": "SOLO",
+                "colour": 3,
+                "bars": 8
+            },
+            {
+                "name": "THEME A",
+                "colour": 4,
+                "bars": 8
+            }
+        ],
+        "song": [
+            {
+                "section": 0,
+                "repeats": 1
+            },
+            {
+                "section": 1,
+                "repeats": 1
+            },
+            {
+                "section": 2,
+                "repeats": 1
+            },
+            {
+                "section": 3,
+                "repeats": 1
+            },
+            {
+                "section": 4,
+                "repeats": 1
+            }
+        ]
+    }
+}

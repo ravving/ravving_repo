@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Gregorian",
+        "genre": "Gregorian",
+        "about": "Chant in D Dorian, the first mode, slow and straight, in a cathedral's echo.",
+        "bpm": 70,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 2,
+        "scale": "Dorian",
+        "phaser": 0.0,
+        "echo": 0.5,
+        "heavy": 0.0
+    }
+}

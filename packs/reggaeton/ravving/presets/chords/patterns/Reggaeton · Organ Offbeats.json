@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Reggaeton · Organ Offbeats",
+        "genre": "Reggaeton",
+        "chart": {
+            "CHORDS": "..1...1...1...1...6...6...6...6...1...1...1...1...5...5...5...5."
+        },
+        "sound": {
+            "soundSource": "Organ · House"
+        }
+    }
+}

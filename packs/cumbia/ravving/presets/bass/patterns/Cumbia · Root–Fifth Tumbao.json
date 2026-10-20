@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Cumbia · Root–Fifth Tumbao",
+        "genre": "Cumbia",
+        "chart": {
+            "NOTES": "1.....5.1.....5.5.....2.5.....7.",
+            "OCTAVE": "......-.......-.-.......-.....-.",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xxxxx.x.xxxxx.x.xxxxx.x.xxxxx.x"
+        },
+        "sound": {
+            "soundSource": "Finger bass"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Hollywood · Honeymoon Waltz",
+        "genre": "Hollywood",
+        "chart": {
+            "KICK": "X...........X...........X...........X...........",
+            "SNARE": "....x...x.......x...x.......x...x.......x...x.xx",
+            "HAT": "....x...x.......x...x.......x...x.......x...x...",
+            "CYMBAL": "X.....x.x.x.X.....x.x.x.X.....x.x.x.X.....x....."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:40?CYMBAL=51&HAT=44",
+            "sound": {
+                "TONE/CUTOFF": 0.7857
+            }
+        }
+    }
+}

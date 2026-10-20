@@ -1,0 +1,23 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Body · Square Riff",
+        "genre": "Body",
+        "chart": {
+            "NOTES": "1.51.57.1.5.21754.14.16.4.1.64165.25.24.5.2.65425.25.24.5.7.1764",
+            "OCTAVE": "...+....+...++..-..............--...............-...........+...",
+            "ACCENT": "........x...............x...............x...............x.......",
+            "SLIDE": "................................................................"
+        },
+        "sound": {
+            "soundSource": "Lead · Square",
+            "sourceSound": {
+                "FILTER/CUTOFF": 0.7143,
+                "FILTER/RESO": 0.4,
+                "ENVELOPE/RELEASE": 0.1429
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Trap · Drill Pizzicato",
+        "genre": "Trap",
+        "chart": {
+            "CHORDS": "c..c..c.c..c..c.c..c..c.c..c..c.",
+            "VOICINGS": {
+                "0": [
+                    0,
+                    3,
+                    7
+                ],
+                "3": [
+                    0,
+                    3,
+                    7
+                ],
+                "6": [
+                    0,
+                    3,
+                    7
+                ],
+                "8": [
+                    0,
+                    3,
+                    7
+                ],
+                "11": [
+                    0,
+                    3,
+                    7
+                ],
+                "14": [
+                    0,
+                    3,
+                    7
+                ],
+                "16": [
+                    1,
+                    5,
+                    8
+                ],
+                "19": [
+                    1,
+                    5,
+                    8
+                ],
+                "22": [
+                    1,
+                    5,
+                    8
+                ],
+                "24": [
+                    1,
+                    5,
+                    8
+                ],
+                "27": [
+                    1,
+                    5,
+                    8
+                ],
+                "30": [
+                    1,
+                    5,
+                    8
+                ]
+            }
+        },
+        "sound": {
+            "soundSource": "Pizzicato strings"
+        }
+    }
+}

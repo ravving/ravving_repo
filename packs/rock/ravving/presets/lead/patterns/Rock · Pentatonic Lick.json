@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Rock · Pentatonic Lick",
+        "genre": "Rock",
+        "chart": {
+            "NOTES": "1.23..1.6.5.61..5...654.23.1....",
+            "OCTAVE": "+.++..+......+..................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "..x.........x...........x.......",
+            "HOLD": ".x..xx.x.x.x..x..xxx...x..x.xxx.",
+            "ALTER": "..1.....1...1.......1...1......."
+        },
+        "sound": {
+            "soundSource": "Guitar · Overdrive"
+        }
+    }
+}

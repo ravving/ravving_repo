@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Cumbia · Digital 808",
+        "genre": "Cumbia",
+        "chart": {
+            "NOTES": "6.....3.6......34.....1.4......11.....5.1......55.....2.5......2",
+            "OCTAVE": "-.....-.-......--.......-.............-........--.......-.......",
+            "ACCENT": "x...............x...............x...............x...............",
+            "SLIDE": "...............x...............x...............x...............x",
+            "HOLD": ".xxxxx.x.xxxxxx..xxxxx.x.xxxxxx..xxxxx.x.xxxxxx..xxxxx.x.xxxxxx."
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

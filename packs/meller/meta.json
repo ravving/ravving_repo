@@ -1,0 +1,17 @@
+{
+  "id": "meller",
+  "type": "pack",
+  "name": "Meller",
+  "about": "After Backpack: E♭ major at 103, the eighths swung hard, the alto first.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "meller",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

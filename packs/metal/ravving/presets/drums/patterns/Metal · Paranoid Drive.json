@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Metal · Paranoid Drive",
+        "genre": "Metal",
+        "chart": {
+            "KICK": "X.x...x.X.x...x.X.x...x.X.x.X.x.",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "X.x.X.x.X.x.X.x.X.x.X.x.X.x.X.x.",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-plugins/lv2/Black_Pearl_5.lv2/FluidPlug.sf2"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Trap · Phonk Cowbell",
+        "genre": "Trap",
+        "chart": {
+            "KICK": "X.....x...x..x..X.....x...x.....",
+            "CLAP": "....X.......X.......X.......X...",
+            "HAT": "X.x.X.x.x.x.X.x.X.x.X.x.x.x.X.x.",
+            "PERC": "X..x..x...x..x..X..x..x...x.Xx.."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3"
+        }
+    }
+}

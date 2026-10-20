@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Trap · i–VI Pad",
+        "genre": "Trap",
+        "chart": {
+            "CHORDS": "111111111111111111111111111111116666666666666666666666666666666."
+        },
+        "sound": {
+            "soundSource": "Strings · Ensemble"
+        }
+    }
+}

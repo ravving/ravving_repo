@@ -1,0 +1,17 @@
+{
+  "id": "be-a-body",
+  "type": "pack",
+  "name": "Body",
+  "about": "The intro at 140 in F Dorian: harp and chopped voices over sus stabs, the drums ticking, a long echo.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "body",
+    "dorian"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

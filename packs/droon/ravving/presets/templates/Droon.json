@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Droon",
+        "genre": "Droon",
+        "about": "Sonder's moody R&B at 74 in E minor (Too Fast): spacious drums in a long room, a lazy 16th swing.",
+        "bpm": 74,
+        "swing": 58,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Natural Minor",
+        "phaser": 0.1,
+        "echo": 0.35,
+        "heavy": 0.2
+    }
+}

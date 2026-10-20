@@ -1,0 +1,17 @@
+{
+  "id": "rock",
+  "type": "pack",
+  "name": "Rock",
+  "about": "Guitar rock in E major (the guitar's own key), straight eighths, compressed like a live room.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "rock",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

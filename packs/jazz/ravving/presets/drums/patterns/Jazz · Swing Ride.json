@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Jazz · Swing Ride",
+        "genre": "Jazz",
+        "chart": {
+            "CYMBAL": "x...X.x.x...X.x.x...X.x.x...X.x.",
+            "HAT": "....x.......x.......x.......x...",
+            "KICK": "x...x...x...x...x...x...x...x...",
+            "SNARE": "..............x...........x...x."
+        }
+    }
+}

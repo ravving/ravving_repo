@@ -1,0 +1,16 @@
+{
+  "id": "pastelday",
+  "type": "skin",
+  "name": "PASTEL DAY",
+  "about": "Paper-soft light cases, dusty candy keys, and deeper pastel signal tones for easy daytime reading.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

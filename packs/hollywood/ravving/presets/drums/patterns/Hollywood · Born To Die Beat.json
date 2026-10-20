@@ -1,0 +1,23 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Hollywood · Born To Die Beat",
+        "genre": "Hollywood",
+        "chart": {
+            "KICK": "X......x..x.....X......x..x...x.",
+            "SNARE": "....X.......X.......X.......X..x",
+            "HAT": "X.x.X.x.x.x.X.x.X.x.X.x.x.x.X...",
+            "OPEN": "..............................x.",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/SP1200 1.sf3",
+            "sound": {
+                "TONE/CUTOFF": 0.7857,
+                "PITCH/TUNE": 0.4167
+            }
+        }
+    }
+}

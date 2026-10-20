@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Post-Punk · Tear Apart Synth",
+        "genre": "Post-Punk",
+        "chart": {
+            "NOTES": "5...4.3.2...1...2...1.7.5.......5...4.3.2...3...4...3.2.1.......",
+            "OCTAVE": "+...+.+.+...+...+...+...........+...+.+.+...+...+...+.+.+.......",
+            "ACCENT": "x...............................x...............................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxx.x.x.xxx.xxx.xxx.x.x.xxxxxxx.xxx.x.x.xxx.xxx.xxx.x.x.xxxxxx."
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

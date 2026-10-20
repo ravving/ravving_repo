@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Cumbia · Villera",
+        "genre": "Cumbia",
+        "chart": {
+            "KICK": "X......xx.......X......xx.......",
+            "SNARE": "....X.......X.......X.......X...",
+            "TOM": "..........................xx.xxx",
+            "PERC": "X.xxX.xxx.xxX.xxX.xxX.xxx.xxX.xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0?PERC=73&TOM=65&CYMBAL=56&CLAP=63"
+        }
+    }
+}

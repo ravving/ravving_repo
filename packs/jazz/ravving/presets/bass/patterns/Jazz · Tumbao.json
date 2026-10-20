@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Jazz · Tumbao",
+        "genre": "Jazz",
+        "chart": {
+            "NOTES": "......5.....1.........1.....4...",
+            "OCTAVE": "......-.........................",
+            "ACCENT": "......x...............x.........",
+            "SLIDE": "......x...............x.........",
+            "HOLD": ".......xxxxx.xxxxxxxxx.xxxxx.xxx",
+            "ALTER": "................................"
+        }
+    }
+}

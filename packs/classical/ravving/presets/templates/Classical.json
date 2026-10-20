@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Classical",
+        "genre": "Classical",
+        "about": "A concert hall: C major (the timpani are tuned to C and G), moderato, straight; a little echo for the room, nothing squashed.",
+        "bpm": 100,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 0,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.2,
+        "heavy": 0.0
+    }
+}

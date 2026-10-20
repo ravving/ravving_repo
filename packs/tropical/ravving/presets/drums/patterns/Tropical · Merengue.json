@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Tropical · Merengue",
+        "genre": "Tropical",
+        "chart": {
+            "KICK": "X...X...X...X...X...X...X...X...",
+            "CLAP": "..x...x...x...x...x.X.x...x...x.",
+            "OPEN": "X.......X.......X....x.xX.......",
+            "PERC": "X.xxX.xxX.xxX.xxX.xxX.xxX.xxX.xx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0?SNARE=60&TOM=61&CLAP=62&OPEN=64&HAT=70&CYMBAL=56&PERC=69"
+        }
+    }
+}

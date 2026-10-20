@@ -1,0 +1,21 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "R&B · Rimshot Ballad",
+        "genre": "R&B",
+        "chart": {
+            "KICK": "X......x......x.X........x......",
+            "SNARE": "......x.....x..............x....",
+            "HAT": "XxxxxxxxXxxxxxxxXxxxxxxxXxxxxxxx",
+            "PERC": "........X...............X.....x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8",
+            "sound": {
+                "TONE/CUTOFF": 0.7143
+            }
+        }
+    }
+}

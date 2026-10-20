@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Pop · Axis Hook",
+        "genre": "Pop",
+        "chart": {
+            "NOTES": "3..3..2.1..2.3..5..5..3.2.......",
+            "OCTAVE": "................................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x..x..x.x..x.x..x..x..x.xxx...."
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

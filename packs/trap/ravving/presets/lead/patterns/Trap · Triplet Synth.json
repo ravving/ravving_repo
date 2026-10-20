@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Trap · Triplet Synth",
+        "genre": "Trap",
+        "chart": {
+            "NOTES": "1..1..7.5..4..3.1..3..4.5..7..5.",
+            "OCTAVE": "+..+............................",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.x"
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

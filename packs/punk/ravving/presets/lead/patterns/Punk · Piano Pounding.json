@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Punk · Piano Pounding",
+        "genre": "Punk",
+        "chart": {
+            "NOTES": "1.5.1.5.1.5.1.5.1.6.1.6.2.7.2.7.",
+            "OCTAVE": "+...+...+...+...+...+...+...+...",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x"
+        },
+        "sound": {
+            "soundSource": "Grand piano"
+        }
+    }
+}

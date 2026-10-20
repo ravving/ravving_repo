@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Droon · Care",
+        "genre": "Droon",
+        "about": "Care's and Searchin's Bb minor, slower, the eighths swung toward a triplet lilt, a deep room.",
+        "bpm": 64,
+        "swing": 62,
+        "swingEighths": true,
+        "root": 10,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.4,
+        "heavy": 0.15
+    }
+}

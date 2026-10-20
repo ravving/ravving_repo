@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Post-Punk · Tribal Toms",
+        "genre": "Post-Punk",
+        "chart": {
+            "KICK": "X.......x.......X.......x.......",
+            "TOM": "X.xx..x.xx..x.x.X.xx..x.xx..xxxx",
+            "PERC": "............x...............x..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+        }
+    }
+}

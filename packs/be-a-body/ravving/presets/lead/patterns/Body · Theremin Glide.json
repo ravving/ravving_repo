@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Body · Theremin Glide",
+        "genre": "Body",
+        "chart": {
+            "NOTES": "5......1........6.....4.........2...1...7.......5...........4.5.",
+            "OCTAVE": ".......+........................+...+...........................",
+            "ACCENT": "................................................................",
+            "SLIDE": "x...............x...............x...x.......................x...",
+            "HOLD": ".xxxxxx.xxxxxxx..xxxxx.xxxxxxx...xxx.xxx.xxxxxx..xxxxxxxxxxx.x.x"
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

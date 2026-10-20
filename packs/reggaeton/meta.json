@@ -1,0 +1,17 @@
+{
+  "id": "reggaeton",
+  "type": "pack",
+  "name": "Reggaeton",
+  "about": "The dembow at 93 in A minor, straight, the kick pumped by HEAVY.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "reggaeton",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

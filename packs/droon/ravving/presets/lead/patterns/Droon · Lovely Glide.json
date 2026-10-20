@@ -1,0 +1,28 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Droon · Lovely Glide",
+        "genre": "Droon",
+        "chart": {
+            "NOTES": "1...7...5.......3...4...2...1...",
+            "OCTAVE": "+...............................",
+            "ACCENT": "................................",
+            "SLIDE": "....x...........x.......x.......",
+            "HOLD": ".xxx.xxx.xxxxx...xxx.xxx.xxx.xxx",
+            "VELOCITY": {
+                "0": 90,
+                "4": 80,
+                "8": 84,
+                "16": 78,
+                "20": 84,
+                "24": 74,
+                "28": 82
+            }
+        },
+        "sound": {
+            "soundSource": "Calf Monosynth"
+        }
+    }
+}

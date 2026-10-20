@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Black Metal · Skank Beat",
+        "genre": "Black Metal",
+        "chart": {
+            "KICK": "X...x...x...x...x...x...x...x...",
+            "SNARE": "..x...x...x...x...x...x...x...x.",
+            "HAT": "X.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-plugins/lv2/Black_Pearl_5.lv2/FluidPlug.sf2"
+        }
+    }
+}

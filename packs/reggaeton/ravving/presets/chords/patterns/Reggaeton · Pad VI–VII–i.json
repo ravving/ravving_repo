@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Reggaeton · Pad VI–VII–i",
+        "genre": "Reggaeton",
+        "chart": {
+            "CHORDS": "6666666666666666777777777777777711111111111111111111111111111111"
+        },
+        "sound": {
+            "soundSource": "Strings · Digital"
+        }
+    }
+}

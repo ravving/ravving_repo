@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Trap · Drill Slides",
+        "genre": "Trap",
+        "chart": {
+            "NOTES": "1.....1.1...7.1.6.....5.6...1.1.",
+            "OCTAVE": "............-...-.....-.-.......",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "......x.....x.........x.....x...",
+            "HOLD": ".xxxxx.x.xx..x.x.xxxxx.x.xx..x.x",
+            "ALTER": "......1.......................1."
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Fukui · Climax Toms",
+        "genre": "Fukui",
+        "chart": {
+            "KICK": "X.....x.....X...X.....x.....X.x.",
+            "SNARE": ".x...x...x...x....x..x..X..x....",
+            "TOM": "..xx..xx..xx..xxXx.xX.xx.xx.Xxxx",
+            "HAT": "....X.......X.......X.......X...",
+            "CYMBAL": "X...X...X...X...X...X...X...X..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vuelo",
+  "type": "pack",
+  "name": "Vuelo",
+  "about": "Crave You's late-night groove at 120 in C# minor, a hair of swing, the echo throw on the vocals' gaps.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "vuelo",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

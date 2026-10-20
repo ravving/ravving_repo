@@ -1,0 +1,42 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hollywood · Honeymoon Sway",
+        "genre": "Hollywood",
+        "chart": {
+            "NOTES": "1.......5...6.......5...4.......6...5.......7...",
+            "OCTAVE": "........-...-.......-...........-...-.......-...",
+            "ACCENT": "................................................",
+            "SLIDE": "................................................",
+            "HOLD": ".xxxxxxx.xxx.xxxxxxx.xxx.xxxxxxx.xxx.xxxxxxx.xxx",
+            "ALTER": "............................................1...",
+            "VELOCITY": {
+                "0": 72,
+                "8": 60,
+                "12": 80,
+                "20": 64,
+                "24": 86,
+                "32": 68,
+                "36": 94,
+                "44": 70
+            },
+            "NUDGE": {
+                "0": 8,
+                "12": 8,
+                "24": 8,
+                "36": 8
+            }
+        },
+        "sound": {
+            "soundSource": "Cello",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.1818,
+                "ENVELOPE/RELEASE": 0.6429,
+                "MOTION/VIBRATO": 0.1575,
+                "FILTER/CUTOFF": 0.8214
+            }
+        }
+    }
+}

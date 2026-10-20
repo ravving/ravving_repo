@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Pop · Half-Time Ballad",
+        "genre": "Pop",
+        "chart": {
+            "KICK": "X.....x.......x.X.....x..x......",
+            "SNARE": "........X...............X.....x.",
+            "HAT": "X.x.x.x.X.x.x.x.X.x.x.x.X.x.x.x.",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0"
+        }
+    }
+}

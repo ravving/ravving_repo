@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Jazz · Dorian Riff",
+        "genre": "Jazz",
+        "chart": {
+            "NOTES": "1..34.6...5.4.3.1..34.6...5.2.1.",
+            "OCTAVE": "................................",
+            "ACCENT": "x.....x.........x.....x.........",
+            "SLIDE": "................................",
+            "HOLD": ".x...x.x...x.x.x.x...x.x...x.x.x",
+            "ALTER": "......1...............1........."
+        }
+    }
+}

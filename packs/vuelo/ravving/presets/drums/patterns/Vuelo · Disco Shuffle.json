@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Vuelo · Disco Shuffle",
+        "genre": "Vuelo",
+        "chart": {
+            "KICK": "X.........x.....X.........x...x.",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "XXxXXXxXxXxXXXxXXXxXXXxXxXxXXXxX",
+            "OPEN": "..............x...............x.",
+            "PERC": "X.x.X.x.x.x.X.x.X.x.X.x.x.x.X.x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/LINN9000 1.sf3"
+        }
+    }
+}

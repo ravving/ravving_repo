@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Cumbia · Caña de Millo",
+        "genre": "Cumbia",
+        "chart": {
+            "NOTES": "5653565323212...1216121656535...",
+            "OCTAVE": "+++++++++++++...+++.+++.........",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................",
+            "HOLD": ".............x...............x.."
+        },
+        "sound": {
+            "soundSource": "Flute"
+        }
+    }
+}

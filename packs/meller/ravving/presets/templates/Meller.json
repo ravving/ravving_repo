@@ -1,0 +1,83 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Meller",
+        "genre": "Meller",
+        "about": "Jazz-pop after Petite Meller's Baby Love in D♭ major: 129, straight, the horns on top.",
+        "bpm": 129,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 1,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.15,
+        "heavy": 0.2,
+        "sounds": {
+            "drums1": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0"
+            },
+            "drums2": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+            },
+            "bass": {
+                "soundSource": "Finger bass"
+            },
+            "chords": {
+                "soundSource": "Grand piano"
+            },
+            "lead": {
+                "soundSource": "Alto sax"
+            }
+        },
+        "sections": [
+            {
+                "name": "VERSE",
+                "colour": 0,
+                "bars": 4
+            },
+            {
+                "name": "TA DA",
+                "colour": 1,
+                "bars": 4
+            },
+            {
+                "name": "CHORUS",
+                "colour": 2,
+                "bars": 4
+            },
+            {
+                "name": "SAX SOLO",
+                "colour": 3,
+                "bars": 4
+            },
+            {
+                "name": "CHORUS",
+                "colour": 4,
+                "bars": 4
+            }
+        ],
+        "song": [
+            {
+                "section": 0,
+                "repeats": 1
+            },
+            {
+                "section": 1,
+                "repeats": 1
+            },
+            {
+                "section": 2,
+                "repeats": 1
+            },
+            {
+                "section": 3,
+                "repeats": 1
+            },
+            {
+                "section": 4,
+                "repeats": 1
+            }
+        ]
+    }
+}

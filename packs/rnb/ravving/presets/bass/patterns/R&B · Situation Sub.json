@@ -1,0 +1,29 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "R&B · Situation Sub",
+        "genre": "R&B",
+        "chart": {
+            "NOTES": "1.............1.2.............2.",
+            "OCTAVE": "................................",
+            "ACCENT": "................................",
+            "SLIDE": "..............x...............x.",
+            "HOLD": ".xxxxxxxxxxxx..x.xxxxxxxxxxxx..x",
+            "VELOCITY": {
+                "0": 110,
+                "14": 84,
+                "16": 110,
+                "30": 84
+            },
+            "NUDGE": {
+                "0": 8,
+                "16": 8
+            }
+        },
+        "sound": {
+            "soundSource": "Sine sub"
+        }
+    }
+}

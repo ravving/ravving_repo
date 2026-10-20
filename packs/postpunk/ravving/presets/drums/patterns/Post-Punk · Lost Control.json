@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Post-Punk · Lost Control",
+        "genre": "Post-Punk",
+        "chart": {
+            "KICK": "X.....x.x.......X.....x.x.....x.",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "XxxxXxxxxxxxXxxxXxxxXxxxxxxxXxxx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+        }
+    }
+}

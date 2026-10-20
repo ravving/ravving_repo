@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Folk",
+        "genre": "Folk",
+        "about": "Folk in G major (the songs' key), straight, dry but for a little room.",
+        "bpm": 110,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 7,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.1,
+        "heavy": 0.0
+    }
+}

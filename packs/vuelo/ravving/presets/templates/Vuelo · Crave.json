@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Vuelo · Crave",
+        "genre": "Vuelo",
+        "about": "Crave You's late-night groove at 120 in C# minor, a hair of swing, the echo throw on the vocals' gaps.",
+        "bpm": 120,
+        "swing": 52,
+        "swingEighths": false,
+        "root": 1,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.25,
+        "heavy": 0.25
+    }
+}

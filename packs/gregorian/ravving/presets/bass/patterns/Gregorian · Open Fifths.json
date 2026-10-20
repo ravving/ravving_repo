@@ -1,0 +1,29 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Gregorian · Open Fifths",
+        "genre": "Gregorian",
+        "chart": {
+            "NOTES": "1...............5...............1...............5...............",
+            "OCTAVE": "................-...............................-...............",
+            "ACCENT": "x...............................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxx.",
+            "VELOCITY": {
+                "0": 96,
+                "16": 84,
+                "32": 100,
+                "48": 90
+            }
+        },
+        "sound": {
+            "soundSource": "Contrabass",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.1364,
+                "ENVELOPE/RELEASE": 0.5714
+            }
+        }
+    }
+}

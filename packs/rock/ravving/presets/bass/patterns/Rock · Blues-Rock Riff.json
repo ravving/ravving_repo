@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Rock · Blues-Rock Riff",
+        "genre": "Rock",
+        "chart": {
+            "NOTES": "1..2..4.....1.2.44..2.1.........",
+            "OCTAVE": "................................",
+            "ACCENT": "x...............................",
+            "SLIDE": "................................",
+            "HOLD": ".x..x..xxx...x.x..x..x.xxx......",
+            "ALTER": "...1..........1.1...1..........."
+        },
+        "sound": {
+            "soundSource": "Finger bass"
+        }
+    }
+}

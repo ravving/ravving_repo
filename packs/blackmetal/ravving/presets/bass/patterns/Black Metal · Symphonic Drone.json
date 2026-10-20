@@ -1,0 +1,29 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Black Metal · Symphonic Drone",
+        "genre": "Black Metal",
+        "chart": {
+            "NOTES": "1...............6...............7...............1...............",
+            "OCTAVE": "................-...............-...............................",
+            "ACCENT": "................................................x...............",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxx.",
+            "VELOCITY": {
+                "0": 84,
+                "16": 92,
+                "32": 100,
+                "48": 110
+            }
+        },
+        "sound": {
+            "soundSource": "Organ · Bourdon 16",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.2727,
+                "ENVELOPE/RELEASE": 0.5714
+            }
+        }
+    }
+}

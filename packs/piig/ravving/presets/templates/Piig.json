@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Piig",
+        "genre": "Piig",
+        "about": "Biig Piig's 24K: D minor at 79 BPM with the lazy MPC swing, a lo-fi wobble and echo.",
+        "bpm": 79,
+        "swing": 58,
+        "swingEighths": false,
+        "root": 2,
+        "scale": "Natural Minor",
+        "phaser": 0.15,
+        "echo": 0.25,
+        "heavy": 0.3
+    }
+}

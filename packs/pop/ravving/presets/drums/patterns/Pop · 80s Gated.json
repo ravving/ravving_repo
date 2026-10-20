@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Pop · 80s Gated",
+        "genre": "Pop",
+        "chart": {
+            "KICK": "X.......X.x.....X.......X.x.....",
+            "SNARE": "....X.......X.......X...........",
+            "TOM": "............................xxxx",
+            "HAT": "X.x.X.x.X.x.X.x.X.x.X.x.X.x.....",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/LINN9000 1.sf3"
+        }
+    }
+}

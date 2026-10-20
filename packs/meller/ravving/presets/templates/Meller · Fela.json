@@ -1,0 +1,65 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Meller · Fela",
+        "genre": "Meller",
+        "about": "The Afrobeat vamp: slower, warmer, room for the horn riff.",
+        "bpm": 108,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 1,
+        "scale": "Major",
+        "phaser": 0.1,
+        "echo": 0.2,
+        "heavy": 0.25,
+        "sounds": {
+            "drums1": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0"
+            },
+            "drums2": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+            },
+            "bass": {
+                "soundSource": "Finger bass"
+            },
+            "chords": {
+                "soundSource": "Jazz organ"
+            },
+            "lead": {
+                "soundSource": "Muted trumpet"
+            }
+        },
+        "sections": [
+            {
+                "name": "GROOVE",
+                "colour": 0,
+                "bars": 2
+            },
+            {
+                "name": "HORNS",
+                "colour": 1,
+                "bars": 2
+            },
+            {
+                "name": "BREAK",
+                "colour": 2,
+                "bars": 2
+            }
+        ],
+        "song": [
+            {
+                "section": 0,
+                "repeats": 1
+            },
+            {
+                "section": 1,
+                "repeats": 1
+            },
+            {
+                "section": 2,
+                "repeats": 1
+            }
+        ]
+    }
+}

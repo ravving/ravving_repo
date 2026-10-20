@@ -1,0 +1,20 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Droon · Lovely Halftime",
+        "genre": "Droon",
+        "chart": {
+            "KICK": "X.............x.X..x............",
+            "SNARE": "........X...............X......x",
+            "HAT": "X.x.x.x.X.x.x.xxX.x.x.x.X.x.x.x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-plugins/lv2/Red_Zeppelin_5.lv2/FluidPlug.sf2",
+            "sound": {
+                "TONE/CUTOFF": 0.7143
+            }
+        }
+    }
+}

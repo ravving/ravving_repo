@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Bebop · Elvin Fourths",
+        "genre": "Bebop",
+        "chart": {
+            "KICK": "x.....x.....X.....x.....x.....x.",
+            "SNARE": "....X.......X..x....X..X....X...",
+            "TOM": "...x..x..x..X..x..x..x..x..x..x.",
+            "HAT": "....X.......X.......X.......X...",
+            "CYMBAL": "x...X.x.x...X.x.x...X.x.x...X.x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:32?CYMBAL=51&HAT=44"
+        }
+    }
+}

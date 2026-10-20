@@ -1,0 +1,17 @@
+{
+  "id": "metal",
+  "type": "pack",
+  "name": "Metal",
+  "about": "Heavy metal in E minor (the guitar's low string) at 150, compressed hard.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "metal",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

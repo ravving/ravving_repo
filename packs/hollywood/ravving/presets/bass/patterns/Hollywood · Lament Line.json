@@ -1,0 +1,44 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hollywood · Lament Line",
+        "genre": "Hollywood",
+        "chart": {
+            "NOTES": "1.......7.......7.......6.......6.......4.......5...........7...",
+            "OCTAVE": "........-.......-.......-.......-.......-.......-...........-...",
+            "ACCENT": "................................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxxxxxx.xx.",
+            "ALTER": "........1...............1...................................1...",
+            "VELOCITY": {
+                "0": 68,
+                "8": 72,
+                "16": 76,
+                "24": 80,
+                "32": 86,
+                "40": 90,
+                "48": 96,
+                "60": 70
+            },
+            "NUDGE": {
+                "0": 6,
+                "8": 6,
+                "16": 6,
+                "24": 6,
+                "32": 6,
+                "40": 6,
+                "48": 8
+            }
+        },
+        "sound": {
+            "soundSource": "Contrabass",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.1364,
+                "ENVELOPE/RELEASE": 0.5,
+                "FILTER/CUTOFF": 0.8571
+            }
+        }
+    }
+}

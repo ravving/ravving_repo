@@ -1,0 +1,26 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hollywood · Born To Die Sub",
+        "genre": "Hollywood",
+        "chart": {
+            "NOTES": "6......6..6.1...1......1..1.7...7......7..7.6...6......6...56...",
+            "OCTAVE": "-......-..-.................-...-......-..-.-...-......-...--...",
+            "ACCENT": "x...............x...............x...............x...............",
+            "SLIDE": "..........x...............x...............x.....................",
+            "HOLD": ".xxxxx..xx.x.xx..xxxxx..xx.x.xx..xxxxx..xx.x.xx..xxxxx..xx...xx.",
+            "VELOCITY": {
+                "7": 80,
+                "23": 80,
+                "39": 80,
+                "55": 80,
+                "59": 70
+            }
+        },
+        "sound": {
+            "soundSource": "808 · Monosynth"
+        }
+    }
+}

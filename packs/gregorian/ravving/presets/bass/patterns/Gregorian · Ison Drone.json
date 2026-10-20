@@ -1,0 +1,28 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Gregorian · Ison Drone",
+        "genre": "Gregorian",
+        "chart": {
+            "NOTES": "1...............................5...............1...............",
+            "OCTAVE": "................................-...............................",
+            "ACCENT": "................................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxx.xxxxxxxxxxxxxx.",
+            "VELOCITY": {
+                "0": 84,
+                "32": 80,
+                "48": 88
+            }
+        },
+        "sound": {
+            "soundSource": "Organ · Bourdon 16",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.1818,
+                "ENVELOPE/RELEASE": 0.5714
+            }
+        }
+    }
+}

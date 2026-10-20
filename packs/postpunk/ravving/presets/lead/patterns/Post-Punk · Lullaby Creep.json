@@ -1,0 +1,41 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Post-Punk · Lullaby Creep",
+        "genre": "Post-Punk",
+        "chart": {
+            "NOTES": "1.7.1.3...2.1...1.7.6...5.6.....",
+            "OCTAVE": "+...+.+...+.+...+...............",
+            "ACCENT": "................................",
+            "SLIDE": "................................",
+            "HOLD": ".x.x.x.xxx.x.xxx.x.x.xxx.x.xxxxx",
+            "VELOCITY": {
+                "0": 96,
+                "2": 80,
+                "4": 92,
+                "6": 100,
+                "10": 84,
+                "12": 90,
+                "16": 96,
+                "18": 80,
+                "20": 92,
+                "24": 84,
+                "26": 96
+            },
+            "NUDGE": {
+                "2": -8,
+                "10": -8,
+                "18": -8,
+                "24": -8
+            }
+        },
+        "sound": {
+            "soundSource": "Guitar · Clean",
+            "sourceSound": {
+                "MOTION/CHORUS": 0.4
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "solos",
+  "type": "pack",
+  "name": "Solos",
+  "about": "The slowest ballads (Lament, Rain): rubato, nearly straight eighths, a deeper room.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "solos",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "lead-presets.json",
+    "preset": {
+        "name": "Tropical · Sebene Guitar",
+        "genre": "Tropical",
+        "chart": {
+            "NOTES": "35153515257525754616461635152575",
+            "OCTAVE": "+.+.+.+.+...+...+.+.+.+.+.+.+...",
+            "ACCENT": "x...............x...............",
+            "SLIDE": "................................"
+        },
+        "sound": {
+            "soundSource": "Guitar · Clean"
+        }
+    }
+}

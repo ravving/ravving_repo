@@ -1,0 +1,17 @@
+{
+  "id": "punk",
+  "type": "pack",
+  "name": "Punk",
+  "about": "Fast punk at 170 in A major: no echo, everything slammed.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "punk",
+    "major"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

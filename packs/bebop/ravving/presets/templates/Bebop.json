@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Bebop",
+        "genre": "Bebop",
+        "about": "Horn solos in Bb major: bebop at 160 with swung eighths, a little room.",
+        "bpm": 160,
+        "swing": 62,
+        "swingEighths": true,
+        "root": 10,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.15,
+        "heavy": 0.0
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hollywood",
+  "type": "pack",
+  "name": "Hollywood",
+  "about": "The half-time ballad at 62 in F# minor: long bows, harp sweeps, the drums barely there.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "hollywood",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

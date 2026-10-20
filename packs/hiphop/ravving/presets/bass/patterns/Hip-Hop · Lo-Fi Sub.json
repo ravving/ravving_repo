@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Hip-Hop · Lo-Fi Sub",
+        "genre": "Hip-Hop",
+        "chart": {
+            "NOTES": "1.............7.6.............5.4.............6.5...........7...",
+            "OCTAVE": "..............-.-.............-.-.............-.-...........-...",
+            "ACCENT": "x...............................................................",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxxxx.x.xxxxxxxxxxx.xxx"
+        },
+        "sound": {
+            "soundSource": "Fretless"
+        }
+    }
+}

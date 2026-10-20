@@ -1,0 +1,32 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Folk · Dorian Drone",
+        "genre": "Folk",
+        "chart": {
+            "NOTES": "2.............1.2...........1...2.......1.......2...............",
+            "OCTAVE": "-.............-.-...........-...-.......-.......-...............",
+            "ACCENT": "x...............................................x...............",
+            "SLIDE": "................................................................",
+            "HOLD": ".xxxxxxxxxxxxx.x.xxxxxxxxxxx.xxx.xxxxxxx.xxxxxxx.xxxxxxxxxxxxxx.",
+            "VELOCITY": {
+                "0": 90,
+                "14": 72,
+                "16": 96,
+                "28": 70,
+                "32": 100,
+                "40": 78,
+                "48": 92
+            }
+        },
+        "sound": {
+            "soundSource": "Contrabass",
+            "sourceSound": {
+                "ENVELOPE/ATTACK": 0.1818,
+                "ENVELOPE/RELEASE": 0.5
+            }
+        }
+    }
+}

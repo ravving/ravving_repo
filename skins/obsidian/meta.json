@@ -1,0 +1,16 @@
+{
+  "id": "obsidian",
+  "type": "skin",
+  "name": "OBSIDIAN ZERO",
+  "about": "True-black AMOLED-style cases, satin-black keys, and eight tempered jewel LEDs; quiet surfaces for late sessions.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

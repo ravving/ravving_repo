@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Rock · Straight Backbeat",
+        "genre": "Rock",
+        "chart": {
+            "KICK": "X.......x.x.....X.......x.x...x.",
+            "SNARE": "....X.......X.......X.......X...",
+            "HAT": "X.x.X.x.x.x.X.x.X.x.X.x.x.x.X.x.",
+            "CYMBAL": "X..............................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:16"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Pop · Minor-Start Pulse",
+        "genre": "Pop",
+        "chart": {
+            "CHORDS": "6.6.6.6.6.6.6.6.4.4.4.4.4.4.4.4.1.1.1.1.1.1.1.1.5.5.5.5.5.5.5.5."
+        },
+        "sound": {
+            "soundSource": "TAL NoiseMaker"
+        }
+    }
+}

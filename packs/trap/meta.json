@@ -1,0 +1,17 @@
+{
+  "id": "trap",
+  "type": "pack",
+  "name": "Trap",
+  "about": "Trap at 140 (a half-time 70) in F minor, straight hats, hard-squashed 808s.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "trap",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

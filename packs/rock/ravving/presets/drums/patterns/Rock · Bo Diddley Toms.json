@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Rock · Bo Diddley Toms",
+        "genre": "Rock",
+        "chart": {
+            "KICK": "X.......x.......X.......x.......",
+            "TOM": "X..x..x...x.x...X..x..x...x.x...",
+            "PERC": "XxxxxxxxxxxxxxxxXxxxxxxxxxxxxxxx"
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+        }
+    }
+}

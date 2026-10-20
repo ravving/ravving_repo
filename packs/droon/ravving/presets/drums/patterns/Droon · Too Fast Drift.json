@@ -1,0 +1,23 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Droon · Too Fast Drift",
+        "genre": "Droon",
+        "chart": {
+            "KICK": "X........x......X.....x.........",
+            "SNARE": "....X.......X.......X.......X...",
+            "CLAP": "....X...............X...........",
+            "HAT": "X...X...x...X..xX...X...x...X.xx",
+            "OPEN": "..........................x....."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3",
+            "sound": {
+                "SHAPE/LENGTH": 0.9524,
+                "TONE/CUTOFF": 0.8571
+            }
+        }
+    }
+}

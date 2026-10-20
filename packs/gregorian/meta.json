@@ -1,0 +1,17 @@
+{
+  "id": "gregorian",
+  "type": "pack",
+  "name": "Gregorian",
+  "about": "Chant in D Dorian, the first mode, slow and straight, in a cathedral's echo.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "gregorian",
+    "dorian"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

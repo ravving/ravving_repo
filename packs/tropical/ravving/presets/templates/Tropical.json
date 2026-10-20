@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Tropical",
+        "genre": "Tropical",
+        "about": "Música tropical at 130 in C major (salsa and bachata on A minor, its relative), straight.",
+        "bpm": 130,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 0,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.1,
+        "heavy": 0.2
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fukui",
+  "type": "pack",
+  "name": "Fukui",
+  "about": "Scenery's ballad: slow, a lilt on the eighths, the piano in a warm hall.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "fukui",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

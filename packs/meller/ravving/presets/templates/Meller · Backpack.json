@@ -1,0 +1,65 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Meller · Backpack",
+        "genre": "Meller",
+        "about": "After Backpack: E♭ major at 103, the eighths swung hard, the alto first.",
+        "bpm": 103,
+        "swing": 66,
+        "swingEighths": true,
+        "root": 3,
+        "scale": "Major",
+        "phaser": 0.0,
+        "echo": 0.2,
+        "heavy": 0.0,
+        "sounds": {
+            "drums1": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0"
+            },
+            "drums2": {
+                "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+            },
+            "bass": {
+                "soundSource": "Finger bass"
+            },
+            "chords": {
+                "soundSource": "Rhodes"
+            },
+            "lead": {
+                "soundSource": "Alto sax"
+            }
+        },
+        "sections": [
+            {
+                "name": "SAX INTRO",
+                "colour": 0,
+                "bars": 4
+            },
+            {
+                "name": "VERSE",
+                "colour": 1,
+                "bars": 4
+            },
+            {
+                "name": "CHORUS",
+                "colour": 2,
+                "bars": 4
+            }
+        ],
+        "song": [
+            {
+                "section": 0,
+                "repeats": 1
+            },
+            {
+                "section": 1,
+                "repeats": 1
+            },
+            {
+                "section": 2,
+                "repeats": 1
+            }
+        ]
+    }
+}

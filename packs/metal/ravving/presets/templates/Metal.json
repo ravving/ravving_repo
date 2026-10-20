@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Metal",
+        "genre": "Metal",
+        "about": "Heavy metal in E minor (the guitar's low string) at 150, compressed hard.",
+        "bpm": 150,
+        "swing": 50,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.05,
+        "heavy": 0.6
+    }
+}

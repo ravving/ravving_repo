@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "bass-presets.json",
+    "preset": {
+        "name": "Classical · Waltz Oom",
+        "genre": "Classical",
+        "chart": {
+            "NOTES": "1...........4...........5...........1...........",
+            "OCTAVE": "............-...........-...........-...........",
+            "ACCENT": "x.......................x.......................",
+            "SLIDE": "................................................",
+            "HOLD": ".xxx.........xxx.........xxx.........xxx........"
+        },
+        "sound": {
+            "soundSource": "Upright"
+        }
+    }
+}

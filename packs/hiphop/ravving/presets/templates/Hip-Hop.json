@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "Hip-Hop",
+        "genre": "Hip-Hop",
+        "about": "Boom bap at 90 in C minor with a light MPC swing; HEAVY squashes the drums as a sampler's compressor would.",
+        "bpm": 90,
+        "swing": 56,
+        "swingEighths": false,
+        "root": 0,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.15,
+        "heavy": 0.35
+    }
+}

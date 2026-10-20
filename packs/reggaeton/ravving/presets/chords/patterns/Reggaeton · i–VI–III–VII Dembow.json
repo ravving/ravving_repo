@@ -1,0 +1,15 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "chord-presets.json",
+    "preset": {
+        "name": "Reggaeton · i–VI–III–VII Dembow",
+        "genre": "Reggaeton",
+        "chart": {
+            "CHORDS": "11.11.1.11.11.1.66.66.6.66.66.6.33.33.3.33.33.3.77.77.7.77.77.7."
+        },
+        "sound": {
+            "soundSource": "TAL NoiseMaker"
+        }
+    }
+}

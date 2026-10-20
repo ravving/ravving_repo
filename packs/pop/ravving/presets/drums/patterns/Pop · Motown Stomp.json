@@ -1,0 +1,18 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Pop · Motown Stomp",
+        "genre": "Pop",
+        "chart": {
+            "KICK": "x.....x.x.....x.x.....x.x...X.x.",
+            "SNARE": "x...X...x...X...x...X...x...X...",
+            "HAT": "x.x.X.x.x.x.X.x.x.x.X.x.x.x.X.x.",
+            "PERC": "....X.......X.......X.......X..."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+        }
+    }
+}

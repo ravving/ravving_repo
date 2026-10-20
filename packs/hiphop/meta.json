@@ -1,0 +1,17 @@
+{
+  "id": "hiphop",
+  "type": "pack",
+  "name": "Hip-Hop",
+  "about": "Boom bap at 90 in C minor with a light MPC swing; HEAVY squashes the drums as a sampler's compressor would.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "hip-hop",
+    "natural minor"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "ravving"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "ravving": "preset",
+    "type": "template",
+    "template": {
+        "name": "R&B",
+        "genre": "R&B",
+        "about": "Contemporary R&B at 86 in E minor (Jorja Smith's Be Honest key): a lazy 16th swing, a soft room.",
+        "bpm": 86,
+        "swing": 56,
+        "swingEighths": false,
+        "root": 4,
+        "scale": "Natural Minor",
+        "phaser": 0.0,
+        "echo": 0.25,
+        "heavy": 0.25
+    }
+}
