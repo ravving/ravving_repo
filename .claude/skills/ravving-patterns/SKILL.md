@@ -43,6 +43,16 @@ a chord on a step) and VOICINGS by step. Copy the shape from a pack's file
 (`packs/jazz/ravving/presets/bass/patterns/*.json`, `…/chords/patterns/*.json`): the writer
 checks only the lengths of these rows. One scale per pack, every line on its degrees.
 
+### Chords that are played, not just held (ravving 0.6)
+
+`CHORDS` steps holding the same voicing are one held chord. To strike it again, list the step
+in `STRIKES`. Each chord, by its first step, can carry `VELOCITY` (1–127), `NUDGE` (% of a step,
+±50) and `STRUM` (% of a step between one note and the next, ±25: positive is a downstroke,
+the lowest string first; negative an upstroke). A strummed guitar: the shapes on the beats and
+offbeats, `STRIKES` where the same shape is hit again, downstrokes `STRUM` 4–8 with the beat's
+velocity higher, upstrokes `STRUM` −3 to −5, softer, a touch late (`NUDGE` 5–15). Older
+ravvings ignore these keys and play the chords held.
+
 ## Research before writing
 
 Name the records that define the style and read how their grid goes (kick, clap/snare, hats,
