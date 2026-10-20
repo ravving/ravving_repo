@@ -1,0 +1,25 @@
+{
+  "id": "frank-ocean-self-control",
+  "type": "pattern",
+  "name": "R&B · Self Control",
+  "about": "After Frank Ocean's Self Control (Blonde, 2016): the outro in Ab major at 80 bpm, Abmaj7, Cm7, Gb6/maj7 and Fm7 two bars each, 8 bars of fingerpicked electric with room left for the slaps on two and four (SWING 16).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "frank ocean",
+    "self control",
+    "r&b",
+    "alt r&b",
+    "swing 16",
+    "80 bpm",
+    "Ab major",
+    "8 bars",
+    "bittersweet",
+    "guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

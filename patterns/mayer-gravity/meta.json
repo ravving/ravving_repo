@@ -1,0 +1,26 @@
+{
+  "id": "mayer-gravity",
+  "type": "pattern",
+  "name": "Blues · Gravity",
+  "about": "After John Mayer's Gravity (Continuum, 2006): the verse's Am7, D7, Gm/Bb to Ebmaj7, D7 in G major, a slow 12/8 at a dotted quarter of 41 (set 62 bpm), 4 bars of 12/8 on 6 pages, a slow-blues comp on a clean Strat.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "john mayer",
+    "gravity",
+    "blues",
+    "slow blues",
+    "soul",
+    "12/8",
+    "62 bpm",
+    "G major",
+    "6 bars",
+    "brooding",
+    "guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

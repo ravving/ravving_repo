@@ -1,0 +1,25 @@
+{
+  "id": "pratt-moon-dude",
+  "type": "pattern",
+  "name": "Folk · Moon Dude",
+  "about": "After Jessica Pratt's Moon Dude (On Your Own Love Again, 2015): the chorus in E at about 92 bpm, Cmaj7/G, Bm/F#, E to E7 twice, then the ooh's Em7add9 and A, 8 bars strummed on a nylon string.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "jessica pratt",
+    "moon dude",
+    "folk",
+    "psych folk",
+    "mixolydian",
+    "92 bpm",
+    "E major",
+    "8 bars",
+    "dreamy",
+    "nylon guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

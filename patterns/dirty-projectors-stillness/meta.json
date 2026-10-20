@@ -1,0 +1,26 @@
+{
+  "id": "dirty-projectors-stillness",
+  "type": "pattern",
+  "name": "Indie · Stillness Is the Move",
+  "about": "After Dirty Projectors' Stillness Is the Move (Bitte Orca, 2009): the bridge in A minor at 76 bpm, F, C, Em7, F, C, G6, the changes pushed onto the and of four, 8 bars of clean, dry guitar stabs.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "dirty projectors",
+    "stillness is the move",
+    "indie",
+    "art pop",
+    "r&b",
+    "76 bpm",
+    "A minor",
+    "8 bars",
+    "pushes",
+    "airy",
+    "guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

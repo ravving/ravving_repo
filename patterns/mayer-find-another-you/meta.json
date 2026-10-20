@@ -1,0 +1,25 @@
+{
+  "id": "mayer-find-another-you",
+  "type": "pattern",
+  "name": "Soul · Find Another You",
+  "about": "After John Mayer's I'm Gonna Find Another You (Continuum, 2006): the verse's A, A7, D, D#dim7 in A major, a 12/8 soul ballad at a dotted quarter of 51 (set 76 bpm), 4 bars of 12/8 on 6 pages, every eighth struck.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "john mayer",
+    "find another you",
+    "soul",
+    "doo-wop",
+    "12/8",
+    "76 bpm",
+    "A major",
+    "6 bars",
+    "tender",
+    "guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

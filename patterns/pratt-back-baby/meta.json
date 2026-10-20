@@ -1,0 +1,26 @@
+{
+  "id": "pratt-back-baby",
+  "type": "pattern",
+  "name": "Folk · Back, Baby",
+  "about": "After Jessica Pratt's Back, Baby (On Your Own Love Again, 2015): the chorus line and its tag in Eb major, Gm, Ab, Eb/G, Abmaj7 pushed to Bb, Ebmaj7, a swung 3/4 at 95 bpm (SWING 8), 8 bars of 3/4 on 6 pages.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "jessica pratt",
+    "back baby",
+    "folk",
+    "chamber folk",
+    "3/4",
+    "swing 8",
+    "95 bpm",
+    "Eb major",
+    "6 bars",
+    "melancholy",
+    "nylon guitar"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}
