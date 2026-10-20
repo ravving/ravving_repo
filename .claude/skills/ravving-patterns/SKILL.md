@@ -50,8 +50,11 @@ in `STRIKES`. Each chord, by its first step, can carry `VELOCITY` (1–127), `NU
 ±50) and `STRUM` (% of a step between one note and the next, ±25: positive is a downstroke,
 the lowest string first; negative an upstroke). A strummed guitar: the shapes on the beats and
 offbeats, `STRIKES` where the same shape is hit again, downstrokes `STRUM` 4–8 with the beat's
-velocity higher, upstrokes `STRUM` −3 to −5, softer, a touch late (`NUDGE` 5–15). Older
-ravvings ignore these keys and play the chords held.
+velocity higher, upstrokes `STRUM` −3 to −5, softer, a touch late (`NUDGE` 5–15). `HOMES` (by step, a degree 1–7) says
+which chord a custom shape belongs to: its row on CHORDS and the root its name reads from, so
+an upstroke on the top strings of an E shape shows as "Emaj9/D#" on row I; leave a shape out
+of the key (a C in E Mixolydian) without one. Older ravvings ignore these keys and play the
+chords held.
 
 ## Research before writing
 
