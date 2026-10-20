@@ -26,7 +26,8 @@ soundfonts/<id>/meta.json     an .sf2 or .sf3, attached to a release (not commit
 projects/<id>/meta.json       a .ravv bundle or a project .json
 schemas/meta.schema.json      what a meta.json holds
 tools/validate.py             checks every entry (the pull request check)
-tools/build-index.py          writes the site: index.json, the files, the packs as zips, the page
+tools/build-index.py          writes the site: index.json, the files, the packs as zips (and
+                              their presets one by one), the page
 tools/write-pattern.py        writes a pattern entry from a spec of bars (tools/examples/)
 .claude/skills/               how to research and write patterns, for agents and people
 ```
@@ -66,7 +67,27 @@ URL, size and SHA-256, and copies the files beside it (packs zipped under `packs
 `publish` workflow runs it on every push to `main` and deploys the result to GitHub Pages, so
 `https://ravving.github.io/ravving_repo/index.json` is always the current list, and
 `https://ravving.github.io/ravving_repo/` the same catalog as a page, with a download per
-entry. Try it locally:
+entry.
+
+A pattern entry and a pack also list their pattern presets one by one, under `presets`: each
+preset's name, genre, library (`bass-presets.json`), sound, and its own file's URL, size and
+SHA-256. A pack's preset files are published beside its zip, under
+`packs/<id>/<group>/patterns/`. ravving's presets dialog reads them for its STORE source: a
+preset tapped there downloads alone and plays, without the whole pack. Older ravvings ignore
+the key.
+
+```json
+{"id": "jazz", "type": "pack", …, "files": [{"path": "jazz.zip", …}],
+ "presets": [{"name": "Jazz · Samba", "genre": "Jazz", "library": "drum-presets.json",
+              "path": "drums/patterns/Jazz · Samba.json",
+              "url": "https://ravving.github.io/ravving_repo/packs/jazz/drums/patterns/Jazz%20%C2%B7%20Samba.json",
+              "size": 419, "sha256": "…"}]}
+```
+
+A preset that keeps a sound carries it too (`"sound": {"kit": "…", "sound": {…}}`), so the
+dialog can say ♪ and its name before anything is downloaded.
+
+Try it locally:
 
 ```sh
 python3 tools/validate.py
