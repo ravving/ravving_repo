@@ -26,7 +26,9 @@ soundfonts/<id>/meta.json     an .sf2 or .sf3, attached to a release (not commit
 projects/<id>/meta.json       a .ravv bundle or a project .json
 schemas/meta.schema.json      what a meta.json holds
 tools/validate.py             checks every entry (the pull request check)
-tools/build-index.py          writes the site: index.json, the files, the packs as zips
+tools/build-index.py          writes the site: index.json, the files, the packs as zips, the page
+tools/write-pattern.py        writes a pattern entry from a spec of bars (tools/examples/)
+.claude/skills/               how to research and write patterns, for agents and people
 ```
 
 `<id>` is lower-case letters, digits and dashes, unique across the repository.

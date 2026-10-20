@@ -1,0 +1,17 @@
+{
+  "id": "dark-techno-drive",
+  "name": "Techno · Dark Drive",
+  "genre": "Techno",
+  "about": "Dark, sparse Berlin techno at 130: a rumbling four-on-the-floor, muffled off-beat hats, a lone rim and one open hat released at the end of the loop (after Ben Klock, Marcel Dettmann, Dax J).",
+  "tags": ["techno", "dark techno", "130 bpm", "2 bars", "brooding"],
+  "library": "drum-presets.json",
+  "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR909.sf3",
+  "accents": [0, 16],
+  "rows": {
+    "KICK": ["x...x...x...x...", "x...x...x...x..."],
+    "HAT":  ["..x...x...x...x.", "..x...x...x.x.x."],
+    "OPEN": ["................", "..............x."],
+    "TOM":  ["................", ".............x.."],
+    "PERC": [".......x........", ".......x....x..."]
+  }
+}

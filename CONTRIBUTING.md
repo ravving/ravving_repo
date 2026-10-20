@@ -17,7 +17,10 @@ and firm.
 1. Fork the repository and make a folder for your entry: `<kind>/<id>/`, the id in lower-case
    letters, digits and dashes (`my-techno-kit`), unique in the whole repository.
 2. Put the file (or, for a pack, the `ravving` folder a stick holds) in it, and a `meta.json`
-   beside it (README.md shows one; `schemas/meta.schema.json` says what it holds).
+   beside it (README.md shows one; `schemas/meta.schema.json` says what it holds). A pattern
+   can be written from a spec of bars instead: `python3 tools/write-pattern.py SPEC.json`
+   (`tools/examples/dark-techno-drive.json`); `.claude/skills/ravving-patterns/SKILL.md` has
+   the grid, the rows and the accents, for people and for agents.
 3. Run `python3 tools/validate.py`. It says what is missing or wrong, and exits 1 until it is
    right.
 4. Open a pull request. The same check runs there; a maintainer reviews it and merges.
