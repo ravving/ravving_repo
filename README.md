@@ -62,7 +62,9 @@ Bump `version` whenever the files change: ravving offers UPDATE to whoever has t
 `tools/build-index.py SITE_DIR [--base URL]` writes `index.json` with every entry, each file's
 URL, size and SHA-256, and copies the files beside it (packs zipped under `packs/`). The
 `publish` workflow runs it on every push to `main` and deploys the result to GitHub Pages, so
-`https://ravving.github.io/ravving_repo/index.json` is always the current list. Try it locally:
+`https://ravving.github.io/ravving_repo/index.json` is always the current list, and
+`https://ravving.github.io/ravving_repo/` the same catalog as a page, with a download per
+entry. Try it locally:
 
 ```sh
 python3 tools/validate.py

@@ -8,7 +8,9 @@
   "license": "CC-BY-4.0",
   "tags": [
     "bebop",
-    "major"
+    "major",
+    "64 bpm",
+    "Bb major"
   ],
   "minAppVersion": "0.4.0",
   "files": [
