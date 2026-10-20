@@ -141,7 +141,7 @@ section.wrap h2 .mono {{ margin-left: 10px; }}
 <script>
 // FIND: every word typed must be in a card's words (its name, line, author, group, tags)
 document.querySelector(".find").addEventListener("input", event => {{
-  const words = event.target.value.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+  const words = event.target.value.toLowerCase().split(/\\s+/).filter(w => w.length > 0);
   for (const card of document.querySelectorAll(".card")) {{
     card.hidden = !words.every(w => card.dataset.words.includes(w));
   }}
