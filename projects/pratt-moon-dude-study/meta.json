@@ -1,0 +1,12 @@
+{
+  "id": "pratt-moon-dude-study",
+  "type": "project",
+  "name": "Moon Dude (study)",
+  "about": "After Jessica Pratt's live acoustic Moon Dude: E Mixolydian at 86, nylon guitar shapes from the tab struck on the beats, laid-back upstrokes on LEAD, INTRO, VERSE, PRE and CHORUS in the song's order.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": ["jessica pratt", "moon dude", "folk", "psych folk", "demo", "86 bpm", "E mixolydian", "nylon guitar", "acoustic"],
+  "minAppVersion": "0.5.0",
+  "files": ["moon-dude.ravv"]
+}
