@@ -1,0 +1,16 @@
+{
+  "id": "peachradio",
+  "type": "skin",
+  "name": "PEACH RADIO",
+  "about": "Apricot radio cabinets and warm cream keys, with soft-but-strong terracotta and coastal accents.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

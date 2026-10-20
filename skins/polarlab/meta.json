@@ -1,0 +1,16 @@
+{
+  "id": "polarlab",
+  "type": "skin",
+  "name": "POLAR LAB",
+  "about": "Frosted off-white cases, glacial blue and crisp botanical signals; a clean daytime laboratory.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "midnightpetrol",
+  "type": "skin",
+  "name": "MIDNIGHT PETROL",
+  "about": "Inky marine petrol, champagne lamps and dusky jewel signals for immersive night sessions.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

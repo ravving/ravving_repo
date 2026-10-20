@@ -1,0 +1,16 @@
+{
+  "id": "mosscircuit",
+  "type": "skin",
+  "name": "MOSS CIRCUIT",
+  "about": "A forest-floor synth laboratory: deep olive, weathered bronze and botanical signal lights.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}

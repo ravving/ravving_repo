@@ -1,0 +1,16 @@
+{
+  "id": "tokyoterminal",
+  "type": "skin",
+  "name": "TOKYO TERMINAL",
+  "about": "Vintage Japanese digital workstation: aged ivory, cool slate, brick, olive and restrained color.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "skin"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "skin.json"
+  ]
+}
