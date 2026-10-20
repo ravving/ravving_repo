@@ -4,6 +4,10 @@
 """Writes the site ravving reads: index.json (every entry with its files' URLs, sizes and
 SHA-256), the files beside it under <kind>/<id>/, each pack zipped as packs/<id>.zip, and
 index.html, the same catalog as a page for a browser (the ravving site's look).
+A pattern entry and a pack also list their pattern presets one by one ("presets": the name,
+genre, library and sound of each, and the URL, size and SHA-256 of its single file; a pack's
+are published beside its zip under packs/<id>/), so ravving's presets dialog plays one
+without the whole download. Older ravvings read past the key.
 A soundfont's file is its release asset: the URL points at the release, the size and hash
 come from meta.json.
 
@@ -23,6 +27,7 @@ import pathlib
 import shutil
 import subprocess
 import sys
+import urllib.parse
 import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -53,6 +58,32 @@ def zip_pack(folder, target):
                 info.compress_type = zipfile.ZIP_DEFLATED
                 with open(path, "rb") as handle:
                     archive.writestr(info, handle.read())
+
+
+def preset_item(source, relative, url):
+    """One pattern preset as the presets dialog lists it: its name, genre, library and sound
+    (what WITH ITS SOUND brings back), and its file's path in the entry, URL, size and SHA-256."""
+    document = validate.read_json(source)
+    preset = document.get("preset", {})
+    item = {"name": preset.get("name", source.stem), "genre": preset.get("genre", ""), "library": document.get("library", ""),
+            "path": relative, "url": url, "size": source.stat().st_size, "sha256": sha256(source)}
+    if isinstance(preset.get("sound"), dict) and preset["sound"]:
+        item["sound"] = preset["sound"]
+    return item
+
+
+def pack_presets(folder, site, entry_id, base):
+    """A pack's pattern presets (presets/<group>/patterns/*.json), each copied beside the zip
+    under packs/<id>/<group>/patterns/ so one is fetched alone."""
+    presets = folder / "presets"
+    items = []
+    for source in sorted(presets.glob("*/patterns/*.json")):
+        relative = source.relative_to(presets).as_posix()
+        target = site / "packs" / entry_id / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, target)
+        items.append(preset_item(source, relative, base + "packs/" + urllib.parse.quote(f"{entry_id}/{relative}")))
+    return items
 
 
 def git_ref():
@@ -179,18 +210,22 @@ def main():
             files.append({"path": name, "url": base + "packs/" + name, "size": target.stat().st_size, "sha256": sha256(target)})
             with zipfile.ZipFile(target) as archive:
                 listed["count"] = sum(1 for member in archive.namelist() if member.endswith(".json"))
+            listed["presets"] = pack_presets(entry_dir / "ravving", site, meta["id"], base)
         else:
             for name in meta["files"]:
                 source = entry_dir / name
                 target = site / kind / meta["id"] / name
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(source, target)
-                files.append({"path": name, "url": f"{base}{kind}/{meta['id']}/{name}", "size": source.stat().st_size, "sha256": sha256(source)})
+                url = f"{base}{kind}/{meta['id']}/{name}"
+                files.append({"path": name, "url": url, "size": source.stat().st_size, "sha256": sha256(source)})
                 if meta["type"] == "pattern":
                     document = validate.read_json(source)
-                    # the page's name for the library ("drum-presets.json" is the DRUMS' shared one)
+                    # the page's name for the library ("drum-presets.json" is the DRUMS' shared
+                    # one, "chord-presets.json" the CHORDS')
                     group = document.get("library", "").replace("-presets.json", "")
-                    listed["group"] = "DRUMS" if group == "drum" else group.upper()
+                    listed["group"] = {"drum": "DRUMS", "chord": "CHORDS"}.get(group, group.upper())
+                    listed["presets"] = [preset_item(source, name, f"{base}{kind}/{meta['id']}/{urllib.parse.quote(name)}")]
                 elif meta["type"] == "sound":
                     listed["group"] = validate.read_json(source).get("machine", "")
         listed["files"] = files

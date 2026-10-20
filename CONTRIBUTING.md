@@ -25,6 +25,10 @@ and firm.
    right.
 4. Open a pull request. The same check runs there; a maintainer reviews it and merges.
 
+Once it's merged, every pattern preset in it (a pattern entry's, or each one inside a pack)
+also shows in ravving's presets dialog under SOURCE → STORE, where it plays with a tap. So give
+each preset a clear name and its `genre`: that's how the dialog groups them.
+
 ## Sizes
 
 | Kind | Limit |
