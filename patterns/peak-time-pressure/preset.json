@@ -1,0 +1,22 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Techno · Peak Time Pressure",
+        "genre": "Techno",
+        "chart": {
+            "KICK": "X...x...x...x...X...x...x...x...X...x...x...x...X...x...X.......",
+            "SNARE": "....x.......x.......x.......x.......x.......x.......x...X.x.XXXX",
+            "CLAP": "....................................x.......x.......x...X.x.XXXX",
+            "HAT": "..x...x...x...x...x...x...x...x.Xx.xxx.xxx.xxx.xXx.xxx.xXx.xXXXX",
+            "OPEN": "..................x...x...x...x...x...x...x...x...x...x...x.....",
+            "PERC": ".......................x..x............x..x..x.........x........",
+            "TOM": "..........................................x.............X.x.....",
+            "CYMBAL": "X..............................................................."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR909.sf3"
+        }
+    }
+}

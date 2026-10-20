@@ -1,0 +1,20 @@
+{
+  "id": "peak-time-pressure",
+  "type": "pattern",
+  "name": "Techno · Peak Time Pressure",
+  "about": "Four bars of peak-time techno at 140 that build: bare kick, snare and off-beat hat, then open hats and rims, then 16th hats and a clap, and a bar-4 snare roll with toms into the drop (after Charlotte de Witte, Amelie Lens, I Hate Models).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "techno",
+    "peak time",
+    "140 bpm",
+    "4 bars",
+    "heavy"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

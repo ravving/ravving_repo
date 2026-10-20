@@ -1,0 +1,20 @@
+{
+  "id": "detroit-classic-techno",
+  "type": "pattern",
+  "name": "Techno · Detroit Strings",
+  "about": "Classic Detroit techno at 130: 909 kick, snare and clap on two and four, 16th hats around the off-beat open hat, a 3-3-2 rim syncopation and a tom turnaround (after Derrick May's Strings of Life, Juan Atkins' Clear, Jeff Mills' The Bells).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "techno",
+    "detroit techno",
+    "130 bpm",
+    "2 bars",
+    "uplifting"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "industrial-techno-hammer",
+  "type": "pattern",
+  "name": "Techno · Industrial Hammer",
+  "about": "Hard industrial techno at 145: every kick accented, closed hats stuttering on every off-beat 16th, a distorted snare that rolls into the loop's last beat, metallic rim clanks (after Surgeon, Regis, Perc, Ancient Methods, 999999999).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "techno",
+    "industrial techno",
+    "145 bpm",
+    "2 bars",
+    "relentless"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

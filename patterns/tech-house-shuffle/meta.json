@@ -1,0 +1,20 @@
+{
+  "id": "tech-house-shuffle",
+  "type": "pattern",
+  "name": "Techno · Tech House Shuffle",
+  "about": "Tech house at 126: kick on every beat, clap on two and four, open hat on the off-beats pushed by a closed hat on the 'a' of each beat, conga-style percussion in a tresillo (after Green Velvet's Flash, FISHER's Losing It, Chris Lake).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "techno",
+    "tech house",
+    "126 bpm",
+    "2 bars",
+    "bouncy"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}

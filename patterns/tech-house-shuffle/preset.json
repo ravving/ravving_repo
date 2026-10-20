@@ -1,0 +1,19 @@
+{
+    "ravving": "preset",
+    "type": "pattern",
+    "library": "drum-presets.json",
+    "preset": {
+        "name": "Techno · Tech House Shuffle",
+        "genre": "Techno",
+        "chart": {
+            "KICK": "x...X...x...X...x...X...x...X...",
+            "CLAP": "....X.......X.......X.......X...",
+            "HAT": "...x...x...x...x...x...x...x.x.x",
+            "OPEN": "..x...x...x...x...x...x...x...x.",
+            "PERC": "x..x..x...x..x..x..x..x...x...x."
+        },
+        "sound": {
+            "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR808.sf3"
+        }
+    }
+}

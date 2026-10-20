@@ -1,0 +1,20 @@
+{
+  "id": "dark-techno-drive",
+  "type": "pattern",
+  "name": "Techno · Dark Drive",
+  "about": "Dark, sparse Berlin techno at 130: a rumbling four-on-the-floor, muffled off-beat hats, a lone rim and one open hat released at the end of the loop (after Ben Klock, Marcel Dettmann, Dax J).",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "techno",
+    "dark techno",
+    "130 bpm",
+    "2 bars",
+    "brooding"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "preset.json"
+  ]
+}
