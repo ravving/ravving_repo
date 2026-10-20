@@ -16,6 +16,10 @@ A spec (tools/examples/dark-techno-drive.json is one):
       "tags": ["techno", "dark techno", "130 bpm", "2 bars", "brooding"],
       "library": "drum-presets.json",            drum- | bass- | lead- | chord-presets.json
       "kit": "/zynthian/zynthian-data/soundfonts/SFZ Drum Machines/Roland TR909.sf3",   (drums, optional)
+      "sound": {"soundSource": "Nylon guitar", "sourceSound": {"ENVELOPE/RELEASE": 0.4}},
+                                                 (bass, lead, chords, optional: a source by its name
+                                                 in ravving's kits.json and its MODS, 0..1)
+      "voicings": {"0": [0, 4, 7], "16": [-3, 0, 4, 9]},   (chords: each "c" or "x" step's notes)
       "accents": [0, 16],                        the steps hit harder (the whole step's, every row)
       "rows": {                                  a row per role, each a list of 16-character bars
         "KICK": ["x...x...x...x...", "x...x...x...x..."],
@@ -28,7 +32,9 @@ Drum rows are KICK, SNARE, CLAP, TOM, HAT, OPEN, CYMBAL and PERC; a step is "." 
 step, not one row). Every row has the same number of bars, 8 at most. The bass and lead rows
 (NOTES 1–7, OCTAVE + -, ACCENT, SLIDE, HOLD, ALTER) and the chords' (CHORDS 1–7 x c,
 VOICINGS) are written as the packs write them (packs/*/ravving/presets): the script only
-checks their lengths. Exit 1 with the reasons when a spec is wrong.
+checks their lengths, and for the chords that every "c" or "x" step has its voicing (semitones
+from the key's root for "c", scale degrees for "x") and no voicing sits on another step. Exit 1
+with the reasons when a spec is wrong.
 """
 import json
 import pathlib
@@ -72,6 +78,23 @@ def check(spec, errors):
                 errors.append(f"{role} bar {n}: only . x X")
         if library == "drum-presets.json" and all(c == "." for c in "".join(b for b in bar_list if isinstance(b, str))):
             errors.append(f"{role}: an empty row (leave it out)")
+    voicings = spec.get("voicings")
+    if voicings is not None:
+        if library != "chord-presets.json" or not isinstance(voicings, dict):
+            errors.append("voicings: a map of step to notes, for the chords only")
+        else:
+            chords = "".join(b for b in rows.get("CHORDS", []) if isinstance(b, str))
+            custom = {str(i) for i, c in enumerate(chords) if c in "cx"}
+            for step in sorted(custom - set(voicings), key=int):
+                errors.append(f"CHORDS step {step}: a \"c\" or \"x\" without its voicing")
+            for step, notes in voicings.items():
+                if step not in custom:
+                    errors.append(f"voicings {step}: not a \"c\" or \"x\" step of CHORDS")
+                elif not isinstance(notes, list) or not notes or any(not isinstance(n, int) for n in notes):
+                    errors.append(f"voicings {step}: a list of whole numbers")
+    sound = spec.get("sound")
+    if sound is not None and (not isinstance(sound, dict) or not isinstance(sound.get("soundSource", ""), str)):
+        errors.append("sound: a map with the soundSource's name (and its sourceSound MODS)")
     accents = spec.get("accents", [])
     if not isinstance(accents, list) or any(not isinstance(a, int) or a < 0 for a in accents):
         errors.append("accents: a list of step numbers (0 is the first step of bar 1)")
@@ -80,6 +103,8 @@ def check(spec, errors):
 def chart_of(spec):
     rows = {role: "".join(bars) for role, bars in spec["rows"].items()}
     if spec.get("library", "drum-presets.json") != "drum-presets.json":
+        if spec.get("voicings"):
+            rows["VOICINGS"] = {step: spec["voicings"][step] for step in sorted(spec["voicings"], key=int)}
         return rows
     accents = set(spec.get("accents", []))
     chart = {}
@@ -99,11 +124,13 @@ def write(spec_path):
         return [f"{spec_path}: {e}" for e in errors]
     chart = chart_of(spec)
     for step in spec.get("accents", []):
-        if not any(step < len(row) and row[step] != "." for row in chart.values()):
+        if not any(isinstance(row, str) and step < len(row) and row[step] != "." for row in chart.values()):
             return [f"{spec_path}: accent on step {step}, which nothing hits"]
     preset = {"name": spec["name"], "genre": spec["genre"], "chart": chart}
     if spec.get("kit"):
         preset["sound"] = {"kit": spec["kit"]}
+    elif spec.get("sound"):
+        preset["sound"] = spec["sound"]
     document = {"ravving": "preset", "type": "pattern", "library": spec.get("library", "drum-presets.json"), "preset": preset}
     bars = len(next(iter(spec["rows"].values())))
     meta = {"id": spec["id"], "type": "pattern", "name": spec["name"], "about": spec["about"],
