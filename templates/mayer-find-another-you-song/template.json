@@ -1,0 +1,87 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Soul · Find Another You",
+    "genre": "Soul",
+    "about": "I'm Gonna Find Another You's doo-wop soul in A, 12/8 at a dotted quarter of 51 (76 here): the Strat with chorus, a finger bass, a clean guitar for the fills, a room kit.",
+    "bpm": 76,
+    "swing": 50,
+    "swingEighths": false,
+    "root": 9,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.2,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Guitar · Chorus",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.3929
+        }
+      },
+      "drums1": {
+        "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+      },
+      "bass": {
+        "soundSource": "Finger bass"
+      },
+      "lead": {
+        "soundSource": "Guitar · Chorus"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 6
+      },
+      {
+        "name": "VERSE 2",
+        "colour": 1,
+        "bars": 6
+      },
+      {
+        "name": "BRIDGE",
+        "colour": 2,
+        "bars": 6
+      },
+      {
+        "name": "SOLO",
+        "colour": 3,
+        "bars": 6
+      },
+      {
+        "name": "OUTRO",
+        "colour": 4,
+        "bars": 6
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 3,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 4,
+        "repeats": 1
+      }
+    ]
+  }
+}

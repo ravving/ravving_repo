@@ -1,0 +1,25 @@
+{
+  "id": "mayer-emoji-of-a-wave-song",
+  "type": "template",
+  "name": "Folk · Emoji of a Wave",
+  "about": "Emoji of a Wave in B at 83: the Travis-picked acoustic on the chords, an acoustic bass, voices for the lead, brushes kept light. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "john mayer",
+    "emoji of a wave",
+    "folk",
+    "soft rock",
+    "travis picking",
+    "83 bpm",
+    "B major",
+    "8 bars",
+    "wistful",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

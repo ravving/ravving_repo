@@ -1,0 +1,26 @@
+{
+  "id": "mayer-gravity-song",
+  "type": "template",
+  "name": "Blues · Gravity",
+  "about": "Gravity's slow blues in G at a dotted quarter of 41 (62 here, 12/8 as six pages a four-bar line): the Strat with chorus on the chords, a finger bass, a valve-driven guitar for the solo, a room kit. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "john mayer",
+    "gravity",
+    "blues",
+    "slow blues",
+    "soul",
+    "12/8",
+    "62 bpm",
+    "G major",
+    "6 bars",
+    "brooding",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

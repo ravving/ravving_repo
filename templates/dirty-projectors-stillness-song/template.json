@@ -1,0 +1,82 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Indie · Stillness Is the Move",
+    "genre": "Indie",
+    "about": "The Stillness Is the Move in A minor at 76, a touch of swing: the needly clean guitar on the chords, a synth bass, warm violin for the strings' lines, a standard kit for the R&B beat.",
+    "bpm": 76,
+    "swing": 54,
+    "swingEighths": false,
+    "root": 9,
+    "scale": "Natural Minor",
+    "phaser": 0.0,
+    "echo": 0.2,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Guitar · Clean",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.2143
+        }
+      },
+      "drums1": {
+        "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:0"
+      },
+      "bass": {
+        "soundSource": "Synth bass"
+      },
+      "lead": {
+        "soundSource": "Violin · Warm"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 8
+      },
+      {
+        "name": "CHORUS",
+        "colour": 1,
+        "bars": 8
+      },
+      {
+        "name": "BRIDGE",
+        "colour": 2,
+        "bars": 8
+      },
+      {
+        "name": "OUTRO",
+        "colour": 3,
+        "bars": 8
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 3,
+        "repeats": 1
+      }
+    ]
+  }
+}

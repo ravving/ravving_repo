@@ -1,0 +1,72 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Folk · Back, Baby",
+    "genre": "Folk",
+    "about": "Back, Baby in E♭ at 95, 3/4 with triplet-swung eighths (six pages an eight-bar line): the nylon guitar, an upright bass, oohs for the lead, no drums.",
+    "bpm": 95,
+    "swing": 66,
+    "swingEighths": true,
+    "root": 3,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.35,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Nylon guitar",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.4643,
+          "FILTER/CUTOFF": 0.8571,
+          "MOTION/CHORUS": 0.3
+        }
+      },
+      "bass": {
+        "soundSource": "Upright"
+      },
+      "lead": {
+        "soundSource": "Voice oohs"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 6
+      },
+      {
+        "name": "CHORUS",
+        "colour": 1,
+        "bars": 6
+      },
+      {
+        "name": "TAG",
+        "colour": 2,
+        "bars": 6
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      }
+    ]
+  }
+}

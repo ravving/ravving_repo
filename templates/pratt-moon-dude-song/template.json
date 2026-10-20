@@ -1,0 +1,72 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Folk · Moon Dude",
+    "genre": "Folk",
+    "about": "Moon Dude in E Mixolydian at 92: the nylon guitar through a small amp, an upright bass, a flute for the lead, no drums, plenty of tape-room echo.",
+    "bpm": 92,
+    "swing": 50,
+    "swingEighths": false,
+    "root": 4,
+    "scale": "Mixolydian",
+    "phaser": 0.0,
+    "echo": 0.35,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Nylon guitar",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.4286,
+          "FILTER/CUTOFF": 0.8929,
+          "MOTION/CHORUS": 0.25
+        }
+      },
+      "bass": {
+        "soundSource": "Upright"
+      },
+      "lead": {
+        "soundSource": "Flute"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 8
+      },
+      {
+        "name": "CHORUS",
+        "colour": 1,
+        "bars": 8
+      },
+      {
+        "name": "OOHS",
+        "colour": 2,
+        "bars": 8
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      }
+    ]
+  }
+}

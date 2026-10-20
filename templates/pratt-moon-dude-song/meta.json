@@ -1,0 +1,25 @@
+{
+  "id": "pratt-moon-dude-song",
+  "type": "template",
+  "name": "Folk · Moon Dude",
+  "about": "Moon Dude in E Mixolydian at 92: the nylon guitar through a small amp, an upright bass, a flute for the lead, no drums, plenty of tape-room echo. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "jessica pratt",
+    "moon dude",
+    "folk",
+    "psych folk",
+    "mixolydian",
+    "92 bpm",
+    "E major",
+    "8 bars",
+    "dreamy",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

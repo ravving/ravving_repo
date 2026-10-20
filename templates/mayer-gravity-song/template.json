@@ -1,0 +1,88 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Blues · Gravity",
+    "genre": "Blues",
+    "about": "Gravity's slow blues in G at a dotted quarter of 41 (62 here, 12/8 as six pages a four-bar line): the Strat with chorus on the chords, a finger bass, a valve-driven guitar for the solo, a room kit.",
+    "bpm": 62,
+    "swing": 50,
+    "swingEighths": false,
+    "root": 7,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.25,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Guitar · Chorus",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.4643,
+          "FILTER/CUTOFF": 0.9286
+        }
+      },
+      "drums1": {
+        "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:8"
+      },
+      "bass": {
+        "soundSource": "Finger bass"
+      },
+      "lead": {
+        "soundSource": "Guitar · Valve OD"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 6
+      },
+      {
+        "name": "VERSE 2",
+        "colour": 1,
+        "bars": 6
+      },
+      {
+        "name": "CHORUS",
+        "colour": 2,
+        "bars": 6
+      },
+      {
+        "name": "SOLO",
+        "colour": 3,
+        "bars": 6
+      },
+      {
+        "name": "OUTRO",
+        "colour": 4,
+        "bars": 6
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 3,
+        "repeats": 1
+      },
+      {
+        "section": 4,
+        "repeats": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Folk · Emoji of a Wave",
+    "genre": "Folk",
+    "about": "Emoji of a Wave in B at 83: the Travis-picked acoustic on the chords, an acoustic bass, voices for the lead, brushes kept light.",
+    "bpm": 83,
+    "swing": 50,
+    "swingEighths": false,
+    "root": 11,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.3,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Guitar · Acoustic",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.3929
+        }
+      },
+      "drums1": {
+        "kit": "/zynthian/zynthian-data/soundfonts/SF2 Instruments/FluidR3Mono_GM.sf3#128:40?CYMBAL=51&HAT=44"
+      },
+      "bass": {
+        "soundSource": "Acoustic bass"
+      },
+      "lead": {
+        "soundSource": "Voice oohs"
+      }
+    },
+    "sections": [
+      {
+        "name": "INTRO",
+        "colour": 0,
+        "bars": 4
+      },
+      {
+        "name": "VERSE",
+        "colour": 1,
+        "bars": 8
+      },
+      {
+        "name": "CHORUS",
+        "colour": 2,
+        "bars": 8
+      },
+      {
+        "name": "VERSE 2",
+        "colour": 3,
+        "bars": 8
+      },
+      {
+        "name": "OUTRO",
+        "colour": 4,
+        "bars": 8
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 3,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 4,
+        "repeats": 1
+      }
+    ]
+  }
+}

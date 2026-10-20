@@ -1,0 +1,25 @@
+{
+  "id": "frank-ocean-self-control-song",
+  "type": "template",
+  "name": "R&B · Self Control",
+  "about": "Self Control in A♭ at 80, swung sixteenths: the warm jazz guitar on the chords, a sine sub, oohs for the lead, no drums (slaps on two and four if you add them). Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "frank ocean",
+    "self control",
+    "r&b",
+    "alt r&b",
+    "swing 16",
+    "80 bpm",
+    "Ab major",
+    "8 bars",
+    "bittersweet",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

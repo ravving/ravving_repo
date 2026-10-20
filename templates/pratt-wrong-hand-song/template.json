@@ -1,0 +1,68 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "Folk · Wrong Hand",
+    "genre": "Folk",
+    "about": "Wrong Hand at 117 around D: the nylon guitar's C and F♯m sway, an upright bass, a recorder for the lead, no drums.",
+    "bpm": 117,
+    "swing": 50,
+    "swingEighths": false,
+    "root": 2,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.35,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Nylon guitar",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.3571,
+          "FILTER/CUTOFF": 0.8929,
+          "MOTION/CHORUS": 0.2
+        }
+      },
+      "bass": {
+        "soundSource": "Upright"
+      },
+      "lead": {
+        "soundSource": "Recorder"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 8
+      },
+      {
+        "name": "VERSE 2",
+        "colour": 1,
+        "bars": 8
+      },
+      {
+        "name": "BRIDGE",
+        "colour": 2,
+        "bars": 8
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      }
+    ]
+  }
+}

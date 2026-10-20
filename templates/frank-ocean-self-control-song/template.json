@@ -1,0 +1,72 @@
+{
+  "ravving": "preset",
+  "type": "template",
+  "template": {
+    "name": "R&B · Self Control",
+    "genre": "R&B",
+    "about": "Self Control in A♭ at 80, swung sixteenths: the warm jazz guitar on the chords, a sine sub, oohs for the lead, no drums (slaps on two and four if you add them).",
+    "bpm": 80,
+    "swing": 60,
+    "swingEighths": false,
+    "root": 8,
+    "scale": "Major",
+    "phaser": 0.0,
+    "echo": 0.3,
+    "heavy": 0.0,
+    "sounds": {
+      "chords": {
+        "soundSource": "Jazz guitar",
+        "sourceSound": {
+          "ENVELOPE/RELEASE": 0.4286,
+          "FILTER/CUTOFF": 0.8929,
+          "MOTION/CHORUS": 0.2
+        }
+      },
+      "bass": {
+        "soundSource": "Sine sub"
+      },
+      "lead": {
+        "soundSource": "Voice oohs"
+      }
+    },
+    "sections": [
+      {
+        "name": "VERSE",
+        "colour": 0,
+        "bars": 8
+      },
+      {
+        "name": "CHORUS",
+        "colour": 1,
+        "bars": 8
+      },
+      {
+        "name": "OUTRO",
+        "colour": 2,
+        "bars": 8
+      }
+    ],
+    "song": [
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 0,
+        "repeats": 1
+      },
+      {
+        "section": 1,
+        "repeats": 1
+      },
+      {
+        "section": 2,
+        "repeats": 1
+      }
+    ]
+  }
+}

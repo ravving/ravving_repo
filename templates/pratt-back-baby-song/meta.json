@@ -1,0 +1,26 @@
+{
+  "id": "pratt-back-baby-song",
+  "type": "template",
+  "name": "Folk · Back, Baby",
+  "about": "Back, Baby in E♭ at 95, 3/4 with triplet-swung eighths (six pages an eight-bar line): the nylon guitar, an upright bass, oohs for the lead, no drums. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "jessica pratt",
+    "back baby",
+    "folk",
+    "chamber folk",
+    "3/4",
+    "swing 8",
+    "95 bpm",
+    "Eb major",
+    "6 bars",
+    "melancholy",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

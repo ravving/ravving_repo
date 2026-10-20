@@ -1,0 +1,25 @@
+{
+  "id": "mayer-find-another-you-song",
+  "type": "template",
+  "name": "Soul · Find Another You",
+  "about": "I'm Gonna Find Another You's doo-wop soul in A, 12/8 at a dotted quarter of 51 (76 here): the Strat with chorus, a finger bass, a clean guitar for the fills, a room kit. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "john mayer",
+    "find another you",
+    "soul",
+    "doo-wop",
+    "12/8",
+    "76 bpm",
+    "A major",
+    "6 bars",
+    "tender",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

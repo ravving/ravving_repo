@@ -1,0 +1,26 @@
+{
+  "id": "dirty-projectors-stillness-song",
+  "type": "template",
+  "name": "Indie · Stillness Is the Move",
+  "about": "The Stillness Is the Move in A minor at 76, a touch of swing: the needly clean guitar on the chords, a synth bass, warm violin for the strings' lines, a standard kit for the R&B beat. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "dirty projectors",
+    "stillness is the move",
+    "indie",
+    "art pop",
+    "r&b",
+    "76 bpm",
+    "A minor",
+    "8 bars",
+    "pushes",
+    "airy",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}

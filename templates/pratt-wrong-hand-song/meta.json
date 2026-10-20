@@ -1,0 +1,25 @@
+{
+  "id": "pratt-wrong-hand-song",
+  "type": "template",
+  "name": "Folk · Wrong Hand",
+  "about": "Wrong Hand at 117 around D: the nylon guitar's C and F♯m sway, an upright bass, a recorder for the lead, no drums. Its chords pattern is under PATTERNS.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "jessica pratt",
+    "wrong hand",
+    "folk",
+    "psych folk",
+    "modal",
+    "117 bpm",
+    "D major",
+    "8 bars",
+    "hazy",
+    "template"
+  ],
+  "minAppVersion": "0.4.0",
+  "files": [
+    "template.json"
+  ]
+}
