@@ -7,7 +7,10 @@ index.html, the same catalog as a page for a browser (the ravving site's look).
 A pattern entry and a pack also list their pattern presets one by one ("presets": the name,
 genre, library and sound of each, and the URL, size and SHA-256 of its single file; a pack's
 are published beside its zip under packs/<id>/), so ravving's presets dialog plays one
-without the whole download. Older ravvings read past the key.
+without the whole download. A template entry and a pack list their templates the same way
+("type": "template", with its about, bpm, root and scale, and an empty library), for the
+templates dialog's ONLINE source. Older ravvings read past the key, and match no machine's
+library to a template.
 A soundfont's file is its release asset: the URL points at the release, the size and hash
 come from meta.json.
 
@@ -64,6 +67,14 @@ def preset_item(source, relative, url):
     """One pattern preset as the presets dialog lists it: its name, genre, library and sound
     (what WITH ITS SOUND brings back), and its file's path in the entry, URL, size and SHA-256."""
     document = validate.read_json(source)
+    if document.get("type") == "template":
+        # a project template: the templates dialog lists it with its tempo and key ("library"
+        # empty, so no machine's presets take it)
+        template = document.get("template", {})
+        return {"type": "template", "name": template.get("name", source.stem), "genre": template.get("genre", ""),
+                "about": template.get("about", ""), "bpm": template.get("bpm", 0), "root": template.get("root", 0),
+                "scale": template.get("scale", ""), "library": "", "path": relative, "url": url,
+                "size": source.stat().st_size, "sha256": sha256(source)}
     preset = document.get("preset", {})
     item = {"name": preset.get("name", source.stem), "genre": preset.get("genre", ""), "library": document.get("library", ""),
             "path": relative, "url": url, "size": source.stat().st_size, "sha256": sha256(source)}
@@ -73,11 +84,12 @@ def preset_item(source, relative, url):
 
 
 def pack_presets(folder, site, entry_id, base):
-    """A pack's pattern presets (presets/<group>/patterns/*.json), each copied beside the zip
-    under packs/<id>/<group>/patterns/ so one is fetched alone."""
+    """A pack's pattern presets (presets/<group>/patterns/*.json) and templates
+    (presets/templates/*.json), each copied beside the zip under packs/<id>/ so one is fetched
+    alone."""
     presets = folder / "presets"
     items = []
-    for source in sorted(presets.glob("*/patterns/*.json")):
+    for source in sorted(presets.glob("*/patterns/*.json")) + sorted(presets.glob("templates/*.json")):
         relative = source.relative_to(presets).as_posix()
         target = site / "packs" / entry_id / relative
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -225,6 +237,8 @@ def main():
                     # one, "chord-presets.json" the CHORDS')
                     group = document.get("library", "").replace("-presets.json", "")
                     listed["group"] = {"drum": "DRUMS", "chord": "CHORDS"}.get(group, group.upper())
+                    listed["presets"] = [preset_item(source, name, f"{base}{kind}/{meta['id']}/{urllib.parse.quote(name)}")]
+                elif meta["type"] == "template":
                     listed["presets"] = [preset_item(source, name, f"{base}{kind}/{meta['id']}/{urllib.parse.quote(name)}")]
                 elif meta["type"] == "sound":
                     listed["group"] = validate.read_json(source).get("machine", "")
