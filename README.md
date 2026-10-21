@@ -1,101 +1,43 @@
-# ravving_repo
+# The ravving community catalog
 
-The free things ravving's GET MORE dialog lists: genre packs of pattern presets, single
-presets and sounds, project templates, skin sets, soundfonts and demo projects. Everything
-here is free to download, use and remix (see LICENSE); ravving itself is at
-[ravving/ravving](https://github.com/ravving/ravving).
+Patterns, sounds, templates, skins and projects to use with ravving on your MIKO. This repository supplies the content listed in ravving's **GET MORE** dialog.
 
-ravving never browses this repository: a workflow builds one catalog, `index.json`, from
-every entry's `meta.json` and publishes it with the files to this repository's GitHub Pages
-site. The device fetches that one file, shows the list, and downloads only what you pick,
-checking each file's SHA-256 against the catalog.
+ravving is the groovebox app; this repository holds downloadable content for it. The app's source is in [ravving/ravving](https://github.com/ravving/ravving).
 
-## Layout
+## Find something to play
 
-One folder per kind, one folder per entry, a `meta.json` in each. The files are the ones
-ravving writes itself (FILES → SEND… to a USB stick), so a contribution is what a stick holds:
+On your MIKO, open **MENU → GET MORE**, choose a category and select **GET** on an entry. This downloads the content into the appropriate library. Loading or playing it is the next step.
 
-```
-packs/<id>/meta.json          a whole pack: ravving/presets/<drum|bass|lead|chords>/patterns/*.json
-          ravving/presets/…   and ravving/presets/templates/*.json, as on a stick
-patterns/<id>/meta.json       one pattern preset file  {"ravving": "preset", "type": "pattern", …}
-sounds/<id>/meta.json         one saved sound          {"ravving": "preset", "type": "sound", …}
-templates/<id>/meta.json      one project template     {"ravving": "preset", "type": "template", …}
-skins/<id>/meta.json          one skin set             {"ravving": "preset", "type": "skin", …}
-soundfonts/<id>/meta.json     an .sf2 or .sf3, attached to a release (not committed)
-projects/<id>/meta.json       a .ravv bundle or a project .json
-schemas/meta.schema.json      what a meta.json holds
-tools/validate.py             checks every entry (the pull request check)
-tools/build-index.py          writes the site: index.json, the files, the packs as zips (and
-                              their presets one by one), the page
-tools/write-pattern.py        writes a pattern entry from a spec of bars (tools/examples/)
-.claude/skills/               how to research and write patterns, for agents and people
-```
+For individual patterns, open an instrument's presets dialog and choose **SOURCE → ONLINE**. You can try a pattern without downloading its whole pack. **SAVE TO DEVICE** adds it to your saved presets.
 
-`<id>` is lower-case letters, digits and dashes, unique across the repository.
+You can also [browse the web catalog](https://ravving.github.io/ravving_repo/). For a genre pack downloaded as a ZIP, extract its `ravving` folder to the root of a USB stick. The app's [pack guide](https://ravving.github.io/docs/packs.html) explains how to use it.
 
-## A meta.json
+## What is in the catalog?
 
-```json
-{
-  "id": "jazz",
-  "type": "pack",
-  "name": "Jazz",
-  "about": "Jazz in C minor at a medium 120, swung eighths.",
-  "author": "ravving",
-  "version": "1.0.0",
-  "license": "CC-BY-4.0",
-  "tags": ["jazz", "natural minor"],
-  "minAppVersion": "0.4.0",
-  "files": ["ravving"]
-}
-```
+| Category | What it gives you |
+|---|---|
+| Packs | Collections of presets, often with templates for a genre or musical style. |
+| Patterns | A ready-made pattern for one instrument, sometimes with its sound. |
+| Sounds | Saved instrument sounds. |
+| Templates | A starting setup for a new project. |
+| Skins | Sets of instrument colours. |
+| Soundfonts | Instrument or drum sounds in `.sf2` or `.sf3` format. |
+| Projects | Projects to open and explore; `.ravv` bundles can include their samples. |
 
-`files` names what the entry ships, relative to its folder: the files themselves, or for a pack
-the `ravving` folder (zipped as one download). A soundfont names its release asset instead:
+The repository supports all these categories; the available entries may change over time.
 
-```json
-"asset": {"release": "soundfonts-v1", "file": "vintage-keys.sf2", "size": 12345678, "sha256": "…"}
-```
+## Share your work
 
-Bump `version` whenever the files change: ravving offers UPDATE to whoever has the older one.
+Start with [Contributing](CONTRIBUTING.md). It walks through choosing a folder, adding a file, describing it and checking it before you submit a pull request.
 
-## The catalog
+You can export content from ravving or [write a pattern from a text specification](PATTERN_AUTHORING.md). You do not need to build the app or the catalog website to contribute an exported preset.
 
-`tools/build-index.py SITE_DIR [--base URL]` writes `index.json` with every entry, each file's
-URL, size and SHA-256, and copies the files beside it (packs zipped under `packs/`). The
-`publish` workflow runs it on every push to `main` and deploys the result to GitHub Pages, so
-`https://ravving.github.io/ravving_repo/index.json` is always the current list, and
-`https://ravving.github.io/ravving_repo/` the same catalog as a page, with a download per
-entry.
+## Licences and credits
 
-A pattern entry and a pack also list their pattern presets one by one, under `presets`: each
-preset's name, genre, library (`bass-presets.json`), sound, and its own file's URL, size and
-SHA-256. A pack's preset files are published beside its zip, under
-`packs/<id>/<group>/patterns/`. ravving's presets dialog reads them for its STORE source: a
-preset tapped there downloads alone and plays, without the whole pack. Older ravvings ignore
-the key.
+See [LICENSE](LICENSE) for the repository's content licence. Check an entry's `license` and attribution information for material shared under another licence, including soundfonts.
 
-```json
-{"id": "jazz", "type": "pack", …, "files": [{"path": "jazz.zip", …}],
- "presets": [{"name": "Jazz · Samba", "genre": "Jazz", "library": "drum-presets.json",
-              "path": "drums/patterns/Jazz · Samba.json",
-              "url": "https://ravving.github.io/ravving_repo/packs/jazz/drums/patterns/Jazz%20%C2%B7%20Samba.json",
-              "size": 419, "sha256": "…"}]}
-```
+## Maintaining the catalog
 
-A preset that keeps a sound carries it too (`"sound": {"kit": "…", "sound": {…}}`), so the
-dialog can say ♪ and its name before anything is downloaded.
+Each entry has its own folder and a `meta.json` description. The publishing workflow validates the entries, builds the catalog and downloads, then deploys them to GitHub Pages.
 
-Try it locally:
-
-```sh
-python3 tools/validate.py
-python3 tools/build-index.py /tmp/site --base file:///tmp/site/
-RAVVING_STORE_URL=file:///tmp/site/index.json ravving
-```
-
-## Contributing
-
-See CONTRIBUTING.md: fork, add your entry's folder, run `tools/validate.py`, open a pull
-request. The check runs on every pull request; a maintainer reviews and merges.
+For the metadata rules, generated index and local preview instructions, see [Catalog maintenance](CATALOG.md).
