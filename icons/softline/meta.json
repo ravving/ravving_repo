@@ -1,0 +1,16 @@
+{
+  "id": "softline",
+  "type": "icons",
+  "name": "SOFTLINE",
+  "about": "Round 2-cell strokes with round caps and smooth, evenly stepped curves, on a 16-cell grid.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "icons"
+  ],
+  "minAppVersion": "0.5.0",
+  "files": [
+    "icons.json"
+  ]
+}

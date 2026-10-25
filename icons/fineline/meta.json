@@ -1,0 +1,16 @@
+{
+  "id": "fineline",
+  "type": "icons",
+  "name": "FINELINE",
+  "about": "1-cell lines, sharp corners and airy shapes, centred on a 15-cell grid.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "icons"
+  ],
+  "minAppVersion": "0.5.0",
+  "files": [
+    "icons.json"
+  ]
+}

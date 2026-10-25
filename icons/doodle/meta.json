@@ -1,0 +1,16 @@
+{
+  "id": "doodle",
+  "type": "icons",
+  "name": "DOODLE",
+  "about": "Thin rounded outlines, each with one solid accent; bold marks and a solid transport, on a 12-cell grid.",
+  "author": "ravving",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "tags": [
+    "icons"
+  ],
+  "minAppVersion": "0.5.0",
+  "files": [
+    "icons.json"
+  ]
+}
