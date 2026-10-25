@@ -1,6 +1,6 @@
 # The ravving community catalog
 
-Patterns, sounds, templates, skins and projects to use with ravving on your MIKO. This repository supplies the content listed in ravving's **GET MORE** dialog.
+Patterns, sounds, templates, skins, icon packs and projects to use with ravving on your MIKO. This repository supplies the content listed in ravving's **GET MORE** dialog.
 
 ravving is the groovebox app; this repository holds downloadable content for it. The app's source is in [ravving/ravving](https://github.com/ravving/ravving).
 
@@ -21,6 +21,7 @@ You can also [browse the web catalog](https://ravving.github.io/ravving_repo/). 
 | Sounds | Saved instrument sounds. |
 | Templates | A starting setup for a new project. |
 | Skins | Sets of instrument colours. |
+| Icon packs | Drawings for every icon ravving shows. |
 | Soundfonts | Instrument or drum sounds in `.sf2` or `.sf3` format. |
 | Projects | Projects to open and explore; `.ravv` bundles can include their samples. |
 

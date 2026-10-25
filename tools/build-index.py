@@ -108,6 +108,7 @@ def git_ref():
 KIND_TITLES = [("pack", "Packs", "a genre's template and twenty-odd presets for the drums, the bass, the lead and the chords"),
                ("pattern", "Patterns", "single pattern presets"), ("sound", "Sounds", "saved sounds"),
                ("template", "Templates", "project templates"), ("skin", "Skins", "sets of the instruments' colours"),
+               ("icons", "Icon packs", "drawings for every icon ravving shows"),
                ("soundfont", "Soundfonts", ".sf2 and .sf3 files"), ("project", "Projects", "demo projects and .ravv bundles")]
 SITE = "https://ravving.github.io/"
 
@@ -148,7 +149,7 @@ def page(entries, generated):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ravving · get more</title>
-<meta name="description" content="Free packs, presets, skins, soundfonts and projects for ravving: what the GET MORE dialog lists, to download or to contribute to.">
+<meta name="description" content="Free packs, presets, skins, icon packs, soundfonts and projects for ravving: what the GET MORE dialog lists, to download or to contribute to.">
 <link rel="stylesheet" href="{SITE}site.css">
 <link rel="icon" type="image/png" sizes="32x32" href="{SITE}assets/favicon-32.png">
 <style>
@@ -175,7 +176,7 @@ section.wrap h2 .mono {{ margin-left: 10px; }}
   <section class="landing-hero wrap">
     <p class="landing-eyebrow mono">Free and open · {len(entries)} entries · {esc(generated[:10])}</p>
     <h1>Get more</h1>
-    <p class="lede">Packs, presets, skins, soundfonts and projects for ravving. On your MIKO: MENU → GET MORE lists the same, and brings one in with a tap. Here, a download each; put a file on a USB stick's <code>ravving/presets</code> folder and the USB page takes it in.</p>
+    <p class="lede">Packs, presets, skins, icon packs, soundfonts and projects for ravving. On your MIKO: MENU → GET MORE lists the same, and brings one in with a tap. Here, a download each; put a file on a USB stick's <code>ravving/presets</code> folder and the USB page takes it in.</p>
     <nav class="catalog-nav mono" aria-label="Kinds">{nav}</nav>
     <p><input class="find" type="search" placeholder="FIND · a genre, a tempo, a colour…" aria-label="Find" autocomplete="off"></p>
   </section>

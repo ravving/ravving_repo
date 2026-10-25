@@ -4,7 +4,7 @@ This page is for contributors working on catalog generation or publication. To a
 
 ## Sources and generated files
 
-Entries live in `packs/`, `patterns/`, `sounds/`, `templates/`, `skins/`, `soundfonts/` and `projects/`. A category directory may be absent when it has no entries.
+Entries live in `packs/`, `patterns/`, `sounds/`, `templates/`, `skins/`, `icons/`, `soundfonts/` and `projects/`. A category directory may be absent when it has no entries.
 
 Each entry's `meta.json` supplies its ID, type, display name, version and optional descriptive fields. The [metadata schema](schemas/meta.schema.json) describes these fields. [The validator](tools/validate.py) also checks file formats, paths, size limits and repository-wide ID uniqueness.
 

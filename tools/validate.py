@@ -19,7 +19,7 @@ import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 KINDS = {"packs": "pack", "patterns": "pattern", "sounds": "sound", "templates": "template",
-         "skins": "skin", "soundfonts": "soundfont", "projects": "project"}
+         "skins": "skin", "icons": "icons", "soundfonts": "soundfont", "projects": "project"}
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 VERSION_RE = re.compile(r"^[0-9]+(\.[0-9]+){0,2}$")
 FILE_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 ._·-]{0,127}$")
@@ -31,6 +31,8 @@ PACK_LIMIT = 8 * 1024 * 1024
 PACK_FILES = 400
 PROJECT_LIMIT = 64 * 1024 * 1024
 PRESET_GROUPS = {"drums", "bass", "lead", "chords", "sampler", "pads"}
+# an icon pack's icons: filled paths in straight lines on a 4-16 cell grid (ravving's IconPacks)
+STRAIGHT_LINES = re.compile(r"^[MmLlHhVvZz0-9 .,\-]+$")
 
 
 def fail(errors, entry, text):
@@ -98,7 +100,7 @@ def preset_document(path, wanted, errors, entry):
         return fail(errors, entry, f"{path.name}: not a ravving preset file")
     if document.get("type") != wanted:
         return fail(errors, entry, f"{path.name}: a {document.get('type')} file, not a {wanted}")
-    body = document.get({"pattern": "preset", "sound": "sound", "template": "template", "skin": "skin"}[wanted])
+    body = document.get({"pattern": "preset", "sound": "sound", "template": "template", "skin": "skin", "icons": "pack"}[wanted])
     if not isinstance(body, dict) or not body.get("name"):
         fail(errors, entry, f"{path.name}: the {wanted} has no name")
     if wanted == "pattern" and (not isinstance(document.get("library"), str) or not document["library"].endswith("-presets.json")):
@@ -109,6 +111,16 @@ def preset_document(path, wanted, errors, entry):
         fail(errors, entry, f"{path.name}: a sound names its machine")
     if wanted == "skin" and not isinstance(body.get("machines"), dict):
         fail(errors, entry, f"{path.name}: a skin holds its machines' colours")
+    if wanted == "icons" and isinstance(body, dict):
+        grid, icons = body.get("grid"), body.get("icons")
+        if not isinstance(grid, int) or not 4 <= grid <= 16:
+            fail(errors, entry, f"{path.name}: an icon pack's grid is a whole number from 4 to 16")
+        if not isinstance(icons, dict) or not icons:
+            fail(errors, entry, f"{path.name}: an icon pack holds its icons")
+        else:
+            for name, d in icons.items():
+                if not isinstance(d, str) or not STRAIGHT_LINES.match(d.strip()):
+                    fail(errors, entry, f"{path.name}: {name} must be a path in straight lines (M L H V Z)")
 
 
 def check_pack(folder, errors, entry):
@@ -132,12 +144,14 @@ def check_pack(folder, errors, entry):
             preset_document(path, "template", errors, entry)
         elif rel[0] == "skins" and len(rel) == 2:
             preset_document(path, "skin", errors, entry)
+        elif rel[0] == "icons" and len(rel) == 2:
+            preset_document(path, "icons", errors, entry)
         elif len(rel) == 3 and rel[1] == "patterns" and rel[0] in PRESET_GROUPS:
             preset_document(path, "pattern", errors, entry)
         elif len(rel) == 3 and rel[1] == "sounds":
             preset_document(path, "sound", errors, entry)
         else:
-            fail(errors, entry, f"{path.relative_to(folder)}: not where a stick keeps it (<group>/patterns, <machine>/sounds, templates, skins)")
+            fail(errors, entry, f"{path.relative_to(folder)}: not where a stick keeps it (<group>/patterns, <machine>/sounds, templates, skins, icons)")
     if count == 0:
         fail(errors, entry, "the pack is empty")
     if count > PACK_FILES:
@@ -171,7 +185,7 @@ def check_files(meta, entry_dir, errors):
                 fail(errors, entry, "a pack's files is [\"ravving\"], the folder a stick holds")
             else:
                 check_pack(path, errors, entry)
-        elif kind in ("pattern", "sound", "template", "skin"):
+        elif kind in ("pattern", "sound", "template", "skin", "icons"):
             if not path.is_file() or path.suffix != ".json":
                 fail(errors, entry, f"{name}: a {kind} is one .json file")
             elif path.stat().st_size > PRESET_LIMIT:

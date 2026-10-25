@@ -1,6 +1,6 @@
 # Share something you made with ravving
 
-You can contribute patterns, sounds, templates, skin sets, genre packs, soundfonts and projects. After review and a successful publication, your contribution becomes available through ravving's **GET MORE** catalog.
+You can contribute patterns, sounds, templates, skin sets, icon packs, genre packs, soundfonts and projects. After review and a successful publication, your contribution becomes available through ravving's **GET MORE** catalog.
 
 This guide takes you through adding one entry. An **entry** is a folder containing your files and a `meta.json` file that describes them.
 
@@ -29,6 +29,7 @@ Choose the folder that matches your contribution:
 | A saved sound | `sounds/` | `sound` |
 | A starting setup for a project | `templates/` | `template` |
 | A set of instrument colours | `skins/` | `skin` |
+| A set of drawings for ravving's icons | `icons/` | `icons` |
 | A project JSON file or `.ravv` bundle | `projects/` | `project` |
 | A soundfont, coordinated with a maintainer | `soundfonts/` | `soundfont` |
 
@@ -49,7 +50,7 @@ The folder name and the `id` in `meta.json` must match. The display name can be 
 
 ## 2. Add your file
 
-For a pattern, sound, template or skin, copy the corresponding ravving JSON file into your entry's folder. Keep the exported document intact: renaming another kind of JSON file does not convert it into a preset.
+For a pattern, sound, template, skin or icon pack, copy the corresponding ravving JSON file into your entry's folder. Keep the exported document intact: renaming another kind of JSON file does not convert it into a preset.
 
 A project can be a `.json` file or a `.ravv` bundle. Use a bundle when you need to include the project's samples. Test the shared version and note any additional sound requirements in your pull request.
 
@@ -71,7 +72,7 @@ packs/
           Evening House.json
 ```
 
-The drum folder is **`drums`**, not `drum`. Other pattern groups are `bass`, `lead`, `chords`, `sampler` and `pads`. Packs can also contain saved sounds under `<machine>/sounds/` and skin files under `skins/`, within `ravving/presets/`.
+The drum folder is **`drums`**, not `drum`. Other pattern groups are `bass`, `lead`, `chords`, `sampler` and `pads`. Packs can also contain saved sounds under `<machine>/sounds/`, skin files under `skins/` and icon packs under `icons/`, within `ravving/presets/`.
 
 ## 3. Describe your entry
 
@@ -169,7 +170,7 @@ After the merge **and successful catalog deployment**, the entry becomes availab
 
 | Contribution | Limit |
 |---|---|
-| Each pattern, sound, template or skin JSON file | 256 KiB (262,144 bytes) |
+| Each pattern, sound, template, skin or icon pack JSON file | 256 KiB (262,144 bytes) |
 | A pack's `ravving` folder | 8 MiB total and no more than 400 files |
 | Each project JSON file or `.ravv` bundle | 64 MiB |
 | Soundfont | The contribution policy requires under 2 GB; a maintainer handles the release upload |
