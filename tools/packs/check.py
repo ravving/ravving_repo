@@ -12,7 +12,9 @@
 #   DrumMachine::applyChart: a row per role, "x" a hit, "X" an accented one (the step's)
 #   MonoMachine::applyChart: NOTES 1-7, OCTAVE + -, ACCENT SLIDE HOLD x, ALTER a digit;
 #       HOLD runs after a note, at most MaxLength (64) steps a note
-#   ChordMachine::applyChart: CHORDS 1-7 x c, VOICINGS by step for the x and c steps
+#   ChordMachine::applyChart: CHORDS 1-7 x c, VOICINGS by step for the x and c steps; STRIKES,
+#       VELOCITY, NUDGE, STRUM, HOMES by a chord's step; TIES by step: the places of the notes
+#       held on through a change of voicing (none: every note struck with its chord)
 #   Machine::applySoundParts / DrumMachine::applySoundParts: "sound" {"soundSource": a
 #       source's name in kits.json} or {"kit": a kit path}; a source's MODS with it,
 #       "sourceSound" (a soundfont source) or "sourceSounds" {source: …} (a synth source),
@@ -253,7 +255,7 @@ def check_chords(where, chart):
     if "CHORDS" not in chart:
         errors.append(f"{where}: no CHORDS")
         return set(), 16
-    unknown = set(chart) - {"CHORDS", "VOICINGS"}
+    unknown = set(chart) - {"CHORDS", "VOICINGS", "STRIKES", "VELOCITY", "NUDGE", "STRUM", "HOMES", "TIES"}
     if unknown:
         errors.append(f"{where}: unknown chart keys {sorted(unknown)}")
     rows, length = rows_of(where, {"CHORDS": chart["CHORDS"]}, {"CHORDS"})
@@ -285,6 +287,20 @@ def check_chords(where, chart):
             signature.add((i, c, tuple(notes)))
         else:
             signature.add((i, c))
+    # TIES: by step, the places (from the lowest note, 0) of the notes held on from the step
+    # before through a change of voicing; both steps must play, and the place must exist
+    ties = chart.get("TIES", {})
+    if not isinstance(ties, dict):
+        errors.append(f"{where}: TIES is not a map")
+        ties = {}
+    for step, places in ties.items():
+        i = int(step) if step.isdigit() else -1
+        if i < 1 or i >= len(line) or line[i] == "." or line[i - 1] == ".":
+            errors.append(f"{where}: TIES on step {step}, which has no chord on it and the step before")
+            continue
+        size = len(voicings.get(step, [])) if line[i] in "xc" else 4
+        if not isinstance(places, list) or not all(isinstance(n, int) and 0 <= n < size for n in places):
+            errors.append(f"{where}: TIES on step {step} is not a list of places 0..{size - 1}")
     if not signature:
         errors.append(f"{where}: no chords")
     return signature, length

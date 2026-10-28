@@ -226,7 +226,7 @@ pack.chords("Honest Rhodes", "Rhodes · Suitcase", comp(
 pack.chords("Fool Strings", "Strings · Ensemble", comp(
     [("i9", 15), (".", 1)], [("IV13", 15), (".", 1)], [("VIImaj9", 15), (".", 1)],
     [("v7", 8), ("V7b9", 7), (".", 1)]), V,
-    mods={"ENVELOPE/ATTACK": 1800, "ENVELOPE/RELEASE": 1800})
+    mods={"ENVELOPE/ATTACK": 1800, "ENVELOPE/RELEASE": 1800}, ties="all")
 # Teenage Fantasy's iv9 – V7#9 | i9 – VII6/9 on a warm grand: hit, a stab on the "a" of two
 # that anticipates the next chord, a second touch before the bar line
 pack.chords("Fantasy Keys", "Grand · Warm", comp(

@@ -230,13 +230,13 @@ pack.chords("Care Chorus", "Guitar · Clean", comp(
 pack.chords("Heard Rhodes", "Rhodes · Suitcase", comp(
     [("VImaj9", 14), (".", 1), ("IIImaj7", 1)], [("=", 13), (".", 2), ("VImaj9", 1)],
     [("=", 13), (".", 2), ("iv9", 1)], [("=", 7), ("V7b9", 7), (".", 2)]), V,
-    mods={"ENVELOPE/RELEASE": 900, "MOTION/CHORUS": 500})
+    mods={"ENVELOPE/RELEASE": 900, "MOTION/CHORUS": 500}, ties="all")
 # Too Fast's intro (iv – i | VI – ii | i – v | i) as ghostly backing vocals: a vocal pad,
 # a chord a half bar, slow in and slow out
 pack.chords("Intro Ghosts", "Pad · Vocal", comp(
     [("iv7", 8), ("i7", 8)], [("VImaj7", 8), ("ii7", 8)], [("i9", 8), ("v7", 8)],
     [("iadd9", 15), (".", 1)]), V,
-    mods={"ENVELOPE/ATTACK": 2400, "ENVELOPE/RELEASE": 3000})
+    mods={"ENVELOPE/ATTACK": 2400, "ENVELOPE/RELEASE": 3000}, ties="all")
 # Too Fast's interlude (i – VI – iv – VI | III – iv – III – i) on a warm grand, a chord a half
 # bar: struck on one, again on the "and" of two
 def piano(name):

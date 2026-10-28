@@ -308,7 +308,9 @@ class Pack:
         self._mono("lead", name, source, text, mods)
 
     # --- chords -----------------------------------------------------------------------------
-    def chords(self, name, source, text, voicings=None, mods=None):
+    def chords(self, name, source, text, voicings=None, mods=None, ties=None):
+        """`ties`: where the notes a voicing change keeps are held on instead of struck again
+        (chord_ties()): "all", or a list of the steps; none (the default) strikes every chord."""
         voicings = voicings or {}
         tokens = _tokens(text)
         length = len(tokens)
@@ -344,6 +346,8 @@ class Pack:
         chart = {"CHORDS": "".join(line)}
         if chart_voicings:
             chart["VOICINGS"] = chart_voicings
+        if ties:
+            chart["TIES"] = chord_ties(chart, self.scale, ties, name)
         self._write("chords", name, chart, self._sound("chords", source, mods))
 
     def template(self, bpm, root, scale, name=None, **settings):
@@ -423,6 +427,46 @@ def write_template(out, name, bpm, root, scale, swing=50, phaser=0.0, echo=0.0, 
     with open(os.path.join(folder, name + ".json"), "w") as f:
         json.dump({"ravving": "preset", "type": "template", "template": template}, f, indent=4, ensure_ascii=False)
         f.write("\n")
+
+
+# ChordMachine's Classic chord set: the notes of each degree's chord (I to VII)
+CLASSIC_SIZES = [4, 4, 3, 4, 4, 4, 3]
+
+
+def _degree_semitones(scale, degree):
+    octave = degree // len(scale)
+    return scale[degree - octave * len(scale)] + 12 * octave
+
+
+def chord_pitches(scale, char, notes):
+    """The pitches (semitones from degree I) a chart step plays, in the order ChordMachine lists
+    them (a tie names a note by its place in that order): a degree's chord stacked in thirds
+    (the Classic set), "x" scale degrees, "c" semitones."""
+    if char in "1234567":
+        degree = int(char) - 1
+        return [_degree_semitones(scale, degree + 2 * third) for third in range(CLASSIC_SIZES[degree])]
+    if char == "x":
+        return [_degree_semitones(scale, n) for n in notes]
+    return list(notes)
+
+
+def chord_ties(chart, scale, steps="all", name=""):
+    """A chords chart's TIES: on each voicing change (no rest between, `steps` "all" or the
+    listed ones), the places in the new voicing of the notes the one before also plays, held on
+    instead of struck again. A listed step that keeps no note is an error."""
+    line, voicings = chart["CHORDS"], chart.get("VOICINGS", {})
+    ties = {}
+    for i in range(1, len(line)):
+        before, after = line[i - 1], line[i]
+        if "." in (before, after) or (before, voicings.get(str(i - 1))) == (after, voicings.get(str(i))):
+            continue  # a rest, or the same voicing going on
+        held = chord_pitches(scale, before, voicings.get(str(i - 1), []))
+        places = [k for k, pitch in enumerate(chord_pitches(scale, after, voicings.get(str(i), []))) if pitch in held]
+        if places and (steps == "all" or i in steps):
+            ties[str(i)] = places
+    if steps != "all" and set(steps) - {int(step) for step in ties}:
+        raise ValueError(f"{name}: ties on steps {sorted(set(steps) - {int(step) for step in ties})} that keep no note")
+    return ties
 
 
 def N(token, length=1, gap=0):

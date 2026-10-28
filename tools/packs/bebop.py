@@ -297,7 +297,7 @@ def pad(a, b=None):
     return bar(" ".join([C("@" + a, 8), C("@" + b, 7, 1)]) if b else C("@" + a, 15, 1))
 pack.chords("Ballad Pads", "Upright piano", " | ".join([
     pad("Imaj7", "Imaj7B"), pad("vi7", "vi7B"), pad("ii7", "ii7B"), pad("V7", "V7b9"),
-    pad("iii7"), pad("VI7", "VI7B"), pad("ii7B", "ii7"), pad("V7B", "V7")]), V)
+    pad("iii7"), pad("VI7", "VI7B"), pad("ii7B", "ii7"), pad("V7B", "V7")]), V, ties=[56])
 # the cool comp on the guitar: short chords on 2 and 4, a push on the "and" of 4 into each
 # change
 def cool(a, b=None):

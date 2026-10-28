@@ -153,7 +153,7 @@ pack.chords("Spellbound Dorian", "Guitar · 12-string", " | ".join([
 # Lucretia My Reflection's gloom (Am C Dm), on the organ's vox humana
 pack.chords("Lucretia Gloom", "Organ · Vox humana", " | ".join([
     C("@i", 16), " ".join([C("@III", 8), C("@iv", 8)]), C("@i", 16), " ".join([C("@iv", 8), C("@III", 7, 1)])]), PP,
-    mods={"ENVELOPE/RELEASE": 1800})
+    mods={"ENVELOPE/RELEASE": 1800}, ties="all")
 
 # the template: how a project plays these best (the projects dialog's TEMPLATES)
 pack.template(142, "A", "Natural Minor", phaser=0.3, echo=0.3, heavy=0.3,

@@ -186,7 +186,7 @@ pack.chords("Gothic Choir", "Choir", " | ".join(C("@" + c, 15, 1) for c in ["i",
 # the vox humana's suspensions: Dsus2, Dm, Dsus4, Dm, slow
 pack.chords("Vox Humana", "Organ · Vox humana", " | ".join(
     C("@" + c, 16) if k % 2 == 0 else C("@" + c, 15, 1) for k, c in enumerate(["isus2", "i", "isus4", "i"])), G,
-    mods={"ENVELOPE/RELEASE": 2400})
+    mods={"ENVELOPE/RELEASE": 2400}, ties="all")
 # a psalter's harp in 6/8: the i and the VII struck on the dotted quarters
 pack.chords("Harp Psalter", "Harp", bars12(
     C("@i", 5, 1), C("@i", 5, 1), C("@VII", 5, 1), C("@i", 5, 1),

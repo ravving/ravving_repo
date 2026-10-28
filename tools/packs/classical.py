@@ -140,7 +140,7 @@ CHORALE = {"I": ("x", [0, 4, 7, 9]), "vi": ("x", [-2, 5, 7, 9]), "IV": ("x", [-4
            "ii6": ("x", [-4, 5, 8, 10]), "I64": ("x", [-3, 4, 7, 9]), "V7": ("x", [-3, 3, 6, 8]),
            "Iend": ("x", [0, 2, 7, 9])}
 pack.chords("Chorale Cadence", "Choir", " ".join([
-    C("@I", 8), C("@vi", 8), C("@IV", 8), C("@ii6", 8), C("@I64", 8), C("@V7", 8), C("@Iend", 15, 1)]), CHORALE)
+    C("@I", 8), C("@vi", 8), C("@IV", 8), C("@ii6", 8), C("@I64", 8), C("@V7", 8), C("@Iend", 15, 1)]), CHORALE, ties="all")
 # Pachelbel's eight chords (I V vi iii IV I IV V), a quarter each, the upper voices stepping
 # down as in the canon
 CANON = {"I": ("x", [9, 11, 14]), "V": ("x", [8, 11, 13]), "vi": ("x", [7, 9, 12]), "iii": ("x", [6, 9, 11]),

@@ -111,7 +111,7 @@ pack.chords("Lo-Fi Ninths", "Upright piano", " ".join(
     " ".join([R(1), C("@" + c, 13), R(2)]) for c in ["i9", "iv9", "VI9", "v7"]), LOFI)
 # dark strings: i held two bars, VI, then v (triads in scale degrees, any CHORD SET)
 DARK = {"i": ("x", [0, 2, 4, 7]), "VI": ("x", [-2, 0, 2, 5]), "v": ("x", [-3, -1, 1, 4])}
-pack.chords("Dark Strings", "Strings · Bowed", " ".join([C("@i", 32), C("@VI", 16), C("@v", 15, 1)]), DARK)
+pack.chords("Dark Strings", "Strings · Bowed", " ".join([C("@i", 32), C("@VI", 16), C("@v", 15, 1)]), DARK, ties="all")
 # a soul-jazz organ vamp: i7 – IV7 (the Dorian IV, chromatic), stabbed
 ORGAN = {"i": ("c", [0, 3, 7, 10]), "IV": ("c", [5, 9, 12, 15])}
 pack.chords("Organ Vamp", "Jazz organ", " | ".join([

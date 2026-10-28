@@ -157,7 +157,7 @@ pack.chords("Vow Voicings", "Grand piano", comp(
     [("Ebmaj9", 9), (".", 1), ("Eb69", 6)], [("Cm11", 7), (".", 1), ("Cm9", 8)],
     [("Fm9", 7), (".", 1), ("Fm11", 8)], [("Bb13sus", 8), ("Bb7b9", 7), (".", 1)],
     [("Gm7", 8), ("C7b9", 7), (".", 1)], [("Fm9", 8), ("Abm6", 7), (".", 1)],
-    [("Ebmaj9", 8), ("C7alt", 7), (".", 1)], [("Fm11", 8), ("Bb7b9", 6), (".", 2)]), V, mods=PIANO)
+    [("Ebmaj9", 8), ("C7alt", 7), (".", 1)], [("Fm11", 8), ("Bb7b9", 6), (".", 2)]), V, mods=PIANO, ties=[48, 56])
 
 # =========================================================================================
 # 2. LAMENT (56): C minor (degree 6), the darkest: the line cliché C B Bb A under a held D, the
@@ -195,7 +195,7 @@ pack.chords("Lament Line", "Grand piano", comp(
     [("Cm", 8), ("CmMaj", 8)], [("Cm7", 8), ("Cm6", 7), (".", 1)],
     [("Dø", 8), ("G7alt", 7), (".", 1)], [("Cm9", 8), ("Abmaj7#11", 7), (".", 1)],
     [("Fm9", 8), ("Bb13", 7), (".", 1)], [("Ebmaj9", 8), ("Abmaj9", 7), (".", 1)],
-    [("Dø", 8), ("G7alt", 8)], [("CmMaj9", 15), (".", 1)]), V, mods=PIANO)
+    [("Dø", 8), ("G7alt", 8)], [("CmMaj9", 15), (".", 1)]), V, mods=PIANO, ties=[8, 16, 24, 40, 56, 72, 104])
 
 # =========================================================================================
 # 3. DEVOTION (70): the passionate one, on an F pedal (F Dorian, degree 2) with Tyner's fourths
@@ -234,7 +234,7 @@ pack.chords("Devotion Fourths", "Grand piano", comp(
     [("QF", 6), ("QG", 2), ("QF", 8)], [("QEb", 6), ("QF", 2), ("QG", 8)],
     [("QF", 6), ("QG", 2), ("QF", 8)], [("QG", 6), ("QAb", 2), ("QG", 7), (".", 1)],
     [("Abmaj7#11", 8), ("Abmaj9#11", 7), (".", 1)], [("Gm11", 8), ("Gm7", 7), (".", 1)],
-    [("QF", 8), ("QEb", 7), (".", 1)], [("C7alt", 8), ("C7#9", 8)]), V, mods=PIANO)
+    [("QF", 8), ("QEb", 7), (".", 1)], [("C7alt", 8), ("C7#9", 8)]), V, mods=PIANO, ties="all")
 
 # =========================================================================================
 # 4. NOCTURNE (60): the soprano floating high over IV iii ii I (the Lydian IV first), the minor
@@ -271,7 +271,7 @@ pack.chords("Nocturne Floating", "Grand piano", comp(
     [("Abmaj9#11", 15), (".", 1)], [("Gm11", 15), (".", 1)], [("QF", 15), (".", 1)],
     [("Eb69", 15), (".", 1)], [("Abmaj9#11", 8), ("Abm6", 7), (".", 1)],
     [("Gm7", 8), ("C7b9", 7), (".", 1)], [("QF", 7), (".", 1), ("Fm9", 8)],
-    [("Bb13sus", 8), ("Bb7b9", 7), (".", 1)]), V, mods=PIANO)
+    [("Bb13sus", 8), ("Bb7b9", 7), (".", 1)]), V, mods=PIANO, ties=[112, 120])
 
 # =========================================================================================
 # 5. TWILIGHT (62): Baker's ballad, the major: I #i°7 ii V | iii VI7 ii V | I vi ii V; few
@@ -308,7 +308,7 @@ pack.chords("Twilight Piano", "Upright piano", comp(
     [("Ebmaj9", 8), ("Ebmaj9q", 7), (".", 1)], [("Eo7", 15), (".", 1)],
     [("Fm9", 8), ("Fm11", 7), (".", 1)], [("Bb13", 15), (".", 1)],
     [("Gm7", 8), ("C7b9", 7), (".", 1)], [("Fm9", 8), ("Bb13", 7), (".", 1)],
-    [("Ebmaj9", 8), ("Cm9", 7), (".", 1)], [("Fm9", 8), ("Bb7b9", 7), (".", 1)]), V, mods=PIANO)
+    [("Ebmaj9", 8), ("Cm9", 7), (".", 1)], [("Fm9", 8), ("Bb7b9", 7), (".", 1)]), V, mods=PIANO, ties=[40, 88, 104, 120])
 
 # =========================================================================================
 # 6. RAIN (58): Baker in the minor: i VI ii V | I, the backdoor iv–bVII7, I vi, the minor
@@ -344,7 +344,7 @@ pack.chords("Rain Rhodes", "Rhodes", comp(
     [("Cm9", 15), (".", 1)], [("Abmaj9", 15), (".", 1)],
     [("Fm9", 8), ("Fm11", 7), (".", 1)], [("Bb13sus", 8), ("Bb13", 7), (".", 1)],
     [("Ebmaj9", 15), (".", 1)], [("Abm6", 8), ("Db9", 7), (".", 1)],
-    [("Ebmaj9", 8), ("Cm7", 7), (".", 1)], [("Dø", 8), ("G7b9", 7), (".", 1)]), V)
+    [("Ebmaj9", 8), ("Cm7", 7), (".", 1)], [("Dø", 8), ("G7b9", 7), (".", 1)]), V, ties=[40, 56, 88, 120])
 
 # the templates: how a project plays these best (the projects dialog's TEMPLATES): the ballad
 # tempo with the eighths barely swung and a warm room, and a slower late-night one

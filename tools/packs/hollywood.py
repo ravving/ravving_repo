@@ -236,7 +236,7 @@ pack.chords("Line Cliché", "Strings · Tremolo", " | ".join([
     bar(C("@lc3", 8) + " " + C("@lc4", 8)),
     bar(C("@VImaj7", 8) + " " + C("@iv6", 8)),
     bar(C("@V7", 8) + " " + C("@V7b9", 7, 1))]), V,
-    mods={"ENVELOPE/ATTACK": 1800, "ENVELOPE/RELEASE": 2400, "FILTER/CUTOFF": -1200})
+    mods={"ENVELOPE/ATTACK": 1800, "ENVELOPE/RELEASE": 2400, "FILTER/CUTOFF": -1200}, ties="all")
 # Honeymoon's sway on the piano, in three (four 12-step bars in three 16-step bars): i VI iv6
 # V7, each chord struck on one and let ring, touched again on three
 pack.chords("Honeymoon Piano", "Grand piano", " ".join(
@@ -252,7 +252,7 @@ pack.chords("Venice Plagal", "Piano + strings", " | ".join([
     bar(touch("VIb") + " " + touch("vi6")),
     bar(touch("VI") + " " + touch("i")),
     bar(touch("VII") + " " + C("@iv", 7, 1))]), V,
-    mods={"ENVELOPE/RELEASE": 2400, "FILTER/CUTOFF": -1200})
+    mods={"ENVELOPE/RELEASE": 2400, "FILTER/CUTOFF": -1200}, ties=[8, 24, 32])
 
 # the templates: F minor at the pack's 72 (the middle of 56-88), a hair of lazy hip-hop swing
 # under straight strings, the echo for the reverb-drenched room; and Video Games' half-time

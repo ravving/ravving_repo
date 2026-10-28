@@ -147,14 +147,14 @@ pack.chords("Phrygian Dread", "Guitar · Heavy rhythm", " | ".join([
 # a symphonic pad (Emperor, Dimmu Borgir's keyboards): i iv V i on bowed strings, slow
 pack.chords("Symphonic Strings", "Strings · Bowed", " | ".join([
     C("@i", 16), C("@iv", 16), C("@V", 16), C("@i6", 15, 1)]), BM,
-    mods={"ENVELOPE/ATTACK": 3600, "ENVELOPE/RELEASE": 3000})
+    mods={"ENVELOPE/ATTACK": 3600, "ENVELOPE/RELEASE": 3000}, ties="all")
 # after Dunkelheit: Em, then the same chord a half step up (F), each held two bars
 pack.chords("Dunkelheit Shapes", "Guitar · Heavy rhythm", " | ".join([
     C("@i6", 16), C("@i", 15, 1), C("@bII", 16), C("@i6", 15, 1)]), BM)
 # a cathedral organ (the intros, the interludes): i iv i V, in full
 pack.chords("Cathedral Organ", "Organ · Plein jeu", " | ".join([
     C("@iorg", 16), C("@ivorg", 16), C("@iorg", 8) + " " + C("@Vorg", 8), C("@iorg", 15, 1)]), BM,
-    mods={"ENVELOPE/RELEASE": 2400})
+    mods={"ENVELOPE/RELEASE": 2400}, ties="all")
 
 # the template: how a project plays these best (the projects dialog's TEMPLATES)
 pack.template(170, "E", "Natural Minor", echo=0.25, heavy=0.55,

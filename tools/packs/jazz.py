@@ -173,6 +173,9 @@ lead("Jazz · Bossa Melody", 4, [(0, 7, 3, True, False), (3, 8, 3, False, False)
                                 (46, 5, 4, False, False), (50, 3, 6, True, False), (56, 2, 8, False, False)])
 
 
+sys.path.insert(0, HERE)
+from patternkit import chord_ties, write_template  # noqa: E402
+
 # --- chords: rootless jazz voicings, written as chromatic chords (semitones from the chord base) ---
 V = {
     "Cm9": [3, 7, 10, 14], "Cm6": [3, 7, 9, 14], "Dm7b5": [5, 8, 12, 14], "G7b9": [11, 14, 17, 20],
@@ -184,8 +187,9 @@ BOSSA = [(0, 2), (3, 2), (6, 2), (10, 2), (13, 2)]
 WHOLE = [(0, 16)]
 
 
-def chords(name, bars, plan):
-    """plan: [(bar, voicing name, [(step, steps)…])]: each hit a chromatic chord held for its steps."""
+def chords(name, bars, plan, ties=None):
+    """plan: [(bar, voicing name, [(step, steps)…])]: each hit a chromatic chord held for its steps;
+    `ties` as patternkit's Pack.chords()."""
     line = ["."] * (bars * STEPS)
     voicings = {}
     for bar, chord, hits in plan:
@@ -193,7 +197,10 @@ def chords(name, bars, plan):
             for s in range(bar * STEPS + start, min(bar * STEPS + start + length, bars * STEPS)):
                 line[s] = "c"
                 voicings[str(s)] = V[chord]
-    write("chords", "chord-presets.json", name, {"CHORDS": "".join(line), "VOICINGS": voicings})
+    chart = {"CHORDS": "".join(line), "VOICINGS": voicings}
+    if ties:
+        chart["TIES"] = chord_ties(chart, [], ties, name)
+    write("chords", "chord-presets.json", name, chart)
 
 
 chords("Jazz · ii–V–i Charleston", 4, [(0, "Dm7b5", CHARLESTON), (1, "G7b9", CHARLESTON), (2, "Cm9", CHARLESTON), (3, "Cm6", CHARLESTON)])
@@ -206,11 +213,9 @@ chords("Jazz · Quartal Vamp", 4, [(0, "Q1", [(0, 6), (10, 4)]), (1, "Q2", [(2, 
                                   (2, "Q1", [(0, 6), (10, 4)]), (3, "Q3", [(2, 6)]), (3, "Q1", [(12, 4)])])
 # a ballad's changes held a bar each, the tritone substitution (D♭7) before the last V
 chords("Jazz · Ballad Changes", 8, [(bar, chord, WHOLE) for bar, chord in
-                                    enumerate(["Cm9", "Abmaj7#11", "Dm7b5", "G7b9", "Ebmaj7", "Db7", "Cm6", "G7b9"])])
+                                    enumerate(["Cm9", "Abmaj7#11", "Dm7b5", "G7b9", "Ebmaj7", "Db7", "Cm6", "G7b9"])], ties="all")
 
 # the template: how a project plays these best (the projects dialog's TEMPLATES)
-sys.path.insert(0, HERE)
-from patternkit import write_template  # noqa: E402
 write_template(OUT, "Jazz", 120, "C", "Natural Minor", swing=62, echo=0.1,
                about="Jazz in C minor (the charts' C = 0) at a medium 120, swung eighths-feel sixteenths, a little room.")
 

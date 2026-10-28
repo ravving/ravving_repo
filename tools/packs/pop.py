@@ -112,7 +112,7 @@ pack.chords("Royal Road", "Rhodes", " | ".join(" ".join([C(d, 2, 1), C(d, 2, 1),
 BALLAD = {"I": ("x", [0, 4, 7, 9]), "V6": ("x", [-1, 1, 4, 8]), "vi": ("x", [-2, 2, 7, 9]),
           "IV": ("x", [-4, 5, 7, 10]), "V": ("x", [-3, 4, 6, 8])}
 pack.chords("Ballad Strings", "Strings · Ensemble", " ".join(
-    [C("@I", 16), C("@V6", 16), C("@vi", 16), C("@IV", 8), C("@V", 7, 1)]), BALLAD)
+    [C("@I", 16), C("@V6", 16), C("@vi", 16), C("@IV", 8), C("@V", 7, 1)]), BALLAD, ties="all")
 
 # the template: how a project plays these best (the projects dialog's TEMPLATES)
 pack.template(116, "C", "Major", echo=0.15, heavy=0.25,
